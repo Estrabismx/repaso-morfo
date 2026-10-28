@@ -1,0 +1,100 @@
+{
+  "titulo": "Tejido Cartilaginoso",
+  "intro": "Tejido conectivo de sostén, firme y flexible, formado por condrocitos inmersos en una matriz extracelular abundante. Es avascular y resiste la compresión.",
+  "fuentes": ["Ross MH, Pawlina W. Histología: texto y atlas", "Junqueira LC, Carneiro J. Histología básica"],
+  "secciones": [
+    {
+      "titulo": "Matriz extracelular",
+      "claves": ["Fibrilar", "No fibrilar", "Colágeno II", "Agrecano"],
+      "texto": [
+        "El cartílago es un tejido avascular: no tiene vasos sanguíneos, linfáticos ni nervios. Sus células se nutren por difusión a través de la matriz, desde los vasos del pericondrio o desde el líquido sinovial en el caso del cartílago articular.",
+        "Componente fibrilar: en el cartílago hialino y en el elástico predominan las fibrillas de colágeno tipo II (más colágenos menores como el IX, X y XI). El fibrocartílago tiene además abundante colágeno tipo I, y el cartílago elástico, una red de fibras elásticas.",
+        "Componente no fibrilar (sustancia fundamental): proteoglicanos, principalmente agrecano (con condroitín sulfato y queratán sulfato), unidos a largas moléculas de ácido hialurónico, formando grandes agregados muy hidratados. Esa agua ligada da al cartílago su resistencia a la compresión. Glicoproteínas como la condronectina adhieren los condrocitos a la matriz."
+      ],
+      "puntos": [
+        "Matriz territorial (capsular): rodea cada grupo isógeno; es más rica en proteoglicanos y más basófila.",
+        "Matriz interterritorial: ocupa el espacio entre los grupos isógenos; tiene más colágeno y se tiñe menos."
+      ],
+      "clave": "Al ser avascular, el cartílago tiene una capacidad de reparación muy limitada. Esto es importante en las lesiones del cartílago articular."
+    },
+    {
+      "titulo": "Tipos de cartílago",
+      "claves": ["Hialino", "Elástico", "Fibrocartílago"],
+      "puntos": [
+        "Hialino: matriz homogénea y vítrea, con colágeno tipo II. Tiene pericondrio, excepto el articular. Se encuentra en los cartílagos articulares y costales, la tráquea, los bronquios, la mayoría de los cartílagos de la laringe, el tabique nasal, el esqueleto fetal y los discos de crecimiento.",
+        "Elástico: matriz de tipo hialino con una red de fibras elásticas (visibles con orceína o resorcina-fucsina). Tiene pericondrio y no se calcifica con la edad. Se encuentra en el pabellón auricular, el conducto auditivo externo, la trompa auditiva, la epiglotis y los cartílagos corniculados y cuneiformes de la laringe.",
+        "Fibrocartílago: combina tejido conectivo denso (colágeno tipo I) con cartílago hialino. Sus condrocitos se disponen en hileras entre los haces de colágeno, y no tiene pericondrio. Se encuentra en los discos intervertebrales (anillo fibroso), la sínfisis del pubis, los meniscos y los discos articulares (como el de la articulación temporomandibular)."
+      ],
+      "clave": "El fibrocartílago resiste tanto la tracción como la compresión. Por eso se ubica donde hay grandes cargas y fuerzas de cizalla."
+    },
+    {
+      "titulo": "Células: condroblastos y condrocitos",
+      "claves": ["Condroblastos", "Condrocitos", "Grupos isógenos", "Lagunas"],
+      "texto": [
+        "Los condroblastos derivan de células mesenquimáticas o de las células condrogénicas del pericondrio. Son basófilos, ricos en retículo endoplásmico rugoso, y secretan la matriz cartilaginosa. Cuando quedan rodeados por su propia matriz se convierten en condrocitos.",
+        "Los condrocitos ocupan cavidades de la matriz llamadas lagunas (condroplastos). Mantienen la matriz y pueden dividirse dentro de su laguna: las células hijas forman grupos isógenos (nidos de 2 a 8 células) que derivan de un mismo condrocito. En los cortes histológicos, la retracción celular deja un espacio claro dentro de la laguna."
+      ],
+      "puntos": [
+        "Junto al pericondrio, los condrocitos son aplanados y jóvenes.",
+        "Hacia el centro son redondeados y forman grupos isógenos.",
+        "En la osificación endocondral los condrocitos se hipertrofian antes de que la matriz se calcifique."
+      ]
+    },
+    {
+      "titulo": "Pericondrio y crecimiento",
+      "claves": ["Capa fibrosa", "Capa condrogénica", "Aposicional", "Intersticial"],
+      "texto": [
+        "El pericondrio es una vaina de tejido conectivo denso que rodea al cartílago hialino (excepto al articular) y al elástico. Tiene una capa externa fibrosa, con colágeno tipo I, fibroblastos y vasos, y una capa interna condrogénica, cuyas células se diferencian en condroblastos. Sus vasos nutren al cartílago por difusión.",
+        "Crecimiento aposicional: se forma cartílago nuevo en la superficie, a partir de la capa condrogénica del pericondrio, y aumenta el grosor. Crecimiento intersticial: los condrocitos se dividen dentro de la matriz y secretan matriz nueva desde el interior. Es importante en el cartílago joven, en los discos de crecimiento y en el cartílago articular."
+      ],
+      "clave": "El fibrocartílago y el cartílago articular no tienen pericondrio, así que no pueden crecer por aposición."
+    }
+  ],
+  "visor": {
+    "imagen": "cartilago-hialino",
+    "instrucciones": "Cartílago hialino de tráquea teñido con hematoxilina-eosina (100x). Arriba y a la derecha está el pericondrio; al centro, la matriz con condrocitos en lagunas.",
+    "puntos": [
+      { "x": 54.7, "y": 11.1, "titulo": "Pericondrio: capa condrogénica", "descripcion": "Capa interna del pericondrio, con células aplanadas que se diferencian en condroblastos. Desde aquí se produce el crecimiento aposicional." },
+      { "x": 91.4, "y": 41.5, "titulo": "Pericondrio: capa fibrosa y vasos", "descripcion": "Tejido conectivo denso con fibroblastos y colágeno tipo I. Sus vasos sanguíneos (se ven sus luces) nutren al cartílago por difusión, porque la matriz no tiene vasos." },
+      { "x": 43.0, "y": 36.0, "titulo": "Condrocitos en lagunas", "descripcion": "Condrocitos dentro de sus lagunas (condroplastos). Hacia el centro del cartílago son más redondeados y se agrupan en grupos isógenos." },
+      { "x": 25.8, "y": 29.1, "titulo": "Matriz extracelular", "descripcion": "Matriz homogénea, rica en colágeno tipo II y proteoglicanos. Con H-E se tiñe rosado pálido; alrededor de cada grupo de células es más intensa (matriz territorial)." }
+    ]
+  },
+  "flashcards": [
+    { "frente": "Condroblasto", "categoria": "Células", "reverso": { "Origen": "Células mesenquimáticas o capa condrogénica del pericondrio.", "Función": "Secreta la matriz cartilaginosa (colágeno y proteoglicanos)." } },
+    { "frente": "Condrocito", "categoria": "Células", "reverso": { "Ubicación": "Dentro de una laguna (condroplasto) de la matriz.", "Función": "Mantiene la matriz; puede dividirse y formar grupos isógenos." } },
+    { "frente": "Grupo isógeno", "categoria": "Células", "reverso": { "Definición": "Nido de 2 a 8 condrocitos derivados de un mismo condrocito por división.", "Significado": "Evidencia de crecimiento intersticial." } },
+    { "frente": "Pericondrio", "categoria": "Crecimiento", "reverso": { "Capas": "Externa fibrosa (colágeno I, vasos) e interna condrogénica.", "Función": "Nutre al cartílago y permite el crecimiento aposicional. Falta en el cartílago articular y el fibrocartílago." } },
+    { "frente": "Crecimiento aposicional", "categoria": "Crecimiento", "reverso": { "Mecanismo": "Nuevas capas de cartílago desde la capa condrogénica del pericondrio.", "Resultado": "Aumenta el grosor (crecimiento desde la superficie)." } },
+    { "frente": "Crecimiento intersticial", "categoria": "Crecimiento", "reverso": { "Mecanismo": "División de condrocitos dentro de la matriz y secreción de matriz nueva.", "Dónde": "Cartílago joven, discos de crecimiento y cartílago articular." } },
+    { "frente": "Cartílago hialino", "categoria": "Tipos", "reverso": { "Matriz": "Colágeno tipo II; aspecto homogéneo y vítreo.", "Ubicación": "Superficies articulares, cartílagos costales, tráquea, laringe y esqueleto fetal." } },
+    { "frente": "Cartílago elástico", "categoria": "Tipos", "reverso": { "Matriz": "Colágeno tipo II más una red de fibras elásticas; con pericondrio.", "Ubicación": "Pabellón auricular, conducto auditivo externo, trompa auditiva y epiglotis." } },
+    { "frente": "Fibrocartílago", "categoria": "Tipos", "reverso": { "Matriz": "Rica en colágeno tipo I; condrocitos en hileras; sin pericondrio.", "Ubicación": "Discos intervertebrales, sínfisis del pubis y meniscos." } },
+    { "frente": "Agrecano", "categoria": "Matriz", "reverso": { "Definición": "Principal proteoglicano del cartílago (condroitín y queratán sulfato).", "Función": "Unido al ácido hialurónico, retiene agua y da resistencia a la compresión." } },
+    { "frente": "Matriz territorial", "categoria": "Matriz", "reverso": { "Ubicación": "Alrededor de cada grupo isógeno.", "Característica": "Más rica en proteoglicanos, por eso es más basófila que la interterritorial." } }
+  ],
+  "quiz": [
+    { "tipo": "multiple", "pregunta": "¿Qué tipo de colágeno predomina en el cartílago hialino?", "opciones": ["Tipo I", "Tipo II", "Tipo III", "Tipo IV"], "correcta": 1, "explicacion": "El colágeno tipo II es característico del cartílago hialino y del elástico. El tipo I predomina en el fibrocartílago, en el hueso y en el pericondrio." },
+    { "tipo": "vf", "pregunta": "El cartílago es un tejido avascular.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. El cartílago no tiene vasos sanguíneos: sus células se nutren por difusión desde el pericondrio o el líquido sinovial. Por eso se repara con dificultad." },
+    { "tipo": "multiple", "pregunta": "¿Qué tipo de cartílago carece de pericondrio?", "opciones": ["Hialino de la tráquea", "Elástico", "Fibrocartílago", "Hialino costal"], "correcta": 2, "explicacion": "El fibrocartílago no tiene pericondrio (y el cartílago hialino articular tampoco). El cartílago elástico y el hialino de tráquea y costillas sí lo tienen." },
+    { "tipo": "multiple", "pregunta": "¿Dónde se encuentra cartílago elástico?", "opciones": ["Meniscos", "Epiglotis", "Anillos traqueales", "Sínfisis del pubis"], "correcta": 1, "explicacion": "La epiglotis y el pabellón auricular son ejemplos clásicos de cartílago elástico. Los meniscos y la sínfisis son fibrocartílago, y los anillos traqueales, cartílago hialino." },
+    { "tipo": "multiple", "pregunta": "¿Qué es un grupo isógeno?", "opciones": ["Un conjunto de condroblastos del pericondrio", "Condrocitos que derivan de una misma célula por división", "Un tipo de matriz alrededor de los vasos", "Un conjunto de fibras elásticas"], "correcta": 1, "explicacion": "Los grupos isógenos son nidos de condrocitos originados por divisiones sucesivas de un mismo condrocito dentro de su laguna. Son evidencia del crecimiento intersticial." },
+    { "tipo": "vf", "pregunta": "El crecimiento aposicional del cartílago se produce por división de los condrocitos dentro de la matriz.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. Lo descrito es el crecimiento intersticial. El aposicional ocurre en la superficie, a partir de las células de la capa condrogénica del pericondrio." },
+    { "tipo": "multiple", "pregunta": "¿Qué componente da al cartílago su resistencia a la compresión?", "opciones": ["Fibras elásticas", "Agregados de proteoglicanos muy hidratados", "Cristales de hidroxiapatita", "Vasos del pericondrio"], "correcta": 1, "explicacion": "Los agregados de agrecano y ácido hialurónico retienen grandes cantidades de agua. Esa agua ligada amortigua las cargas de compresión. La hidroxiapatita es propia del hueso." },
+    { "tipo": "multiple", "pregunta": "¿Qué tipo de cartílago forma el modelo de la osificación endocondral?", "opciones": ["Hialino", "Elástico", "Fibrocartílago", "Ninguno: se forma directamente desde el mesénquima"], "correcta": 0, "explicacion": "La osificación endocondral reemplaza un modelo de cartílago hialino. La formación directa desde el mesénquima corresponde a la osificación intramembranosa." },
+    { "tipo": "vf", "pregunta": "El cartílago articular está cubierto por pericondrio.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. El cartílago articular es hialino pero no tiene pericondrio: se nutre por difusión desde el líquido sinovial." },
+    { "tipo": "multiple", "pregunta": "¿Qué capa del pericondrio origina nuevos condroblastos?", "opciones": ["Capa fibrosa externa", "Capa condrogénica interna", "Matriz territorial", "Matriz interterritorial"], "correcta": 1, "explicacion": "La capa interna (condrogénica) tiene células que se diferencian en condroblastos. La capa externa es fibrosa y vascular." },
+    { "tipo": "multiple", "pregunta": "¿En cuál de estas estructuras hay fibrocartílago?", "opciones": ["Cartílagos costales", "Pabellón auricular", "Disco intervertebral", "Superficie articular del fémur"], "correcta": 2, "explicacion": "El anillo fibroso del disco intervertebral es fibrocartílago, adaptado a la compresión y a las fuerzas de torsión. Los cartílagos costales y la superficie articular son hialinos, y el pabellón auricular es elástico." }
+  ],
+  "pareados": [
+    { "termino": "Condroblasto", "definicion": "Célula que secreta la matriz cartilaginosa." },
+    { "termino": "Condrocito", "definicion": "Célula del cartílago alojada en una laguna de la matriz." },
+    { "termino": "Grupo isógeno", "definicion": "Nido de condrocitos que derivan de una misma célula." },
+    { "termino": "Pericondrio", "definicion": "Vaina de tejido conectivo denso que rodea y nutre al cartílago." },
+    { "termino": "Fibrocartílago", "definicion": "Cartílago rico en colágeno tipo I, sin pericondrio." },
+    { "termino": "Cartílago elástico", "definicion": "Cartílago con fibras elásticas, presente en el pabellón auricular." },
+    { "termino": "Crecimiento intersticial", "definicion": "Aumento de tamaño por división de condrocitos dentro de la matriz." },
+    { "termino": "Crecimiento aposicional", "definicion": "Formación de cartílago nuevo en la superficie, desde el pericondrio." },
+    { "termino": "Matriz territorial", "definicion": "Matriz más basófila que rodea a cada grupo isógeno." }
+  ]
+}

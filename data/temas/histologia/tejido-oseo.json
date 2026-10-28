@@ -1,0 +1,116 @@
+{
+  "titulo": "Tejido Óseo",
+  "intro": "Tejido conectivo especializado con matriz mineralizada. Da soporte y protección, permite el movimiento y es el principal reservorio de calcio y fosfato del organismo.",
+  "fuentes": ["Ross MH, Pawlina W. Histología: texto y atlas", "Junqueira LC, Carneiro J. Histología básica"],
+  "secciones": [
+    {
+      "titulo": "Matriz ósea",
+      "claves": ["Hidroxiapatita", "Colágeno I", "Osteoide"],
+      "texto": [
+        "La matriz ósea tiene una fracción orgánica y una inorgánica. La fracción orgánica (osteoide) está formada principalmente por colágeno tipo I, que aporta resistencia a la tracción y cierta flexibilidad, junto con proteoglicanos y glicoproteínas no colágenas como la osteocalcina, la osteonectina, la osteopontina y la sialoproteína ósea.",
+        "La fracción inorgánica corresponde a cristales de hidroxiapatita [Ca₁₀(PO₄)₆(OH)₂] depositados a lo largo de las fibras de colágeno. Representa cerca de dos tercios del peso seco del hueso, le da dureza y resistencia a la compresión y concentra alrededor del 99 % del calcio corporal."
+      ],
+      "clave": "Un hueso descalcificado conserva su forma pero se vuelve flexible (queda el colágeno). Uno calcinado conserva la forma pero se vuelve quebradizo (queda solo el mineral)."
+    },
+    {
+      "titulo": "Células del tejido óseo",
+      "claves": ["Osteoprogenitoras", "Osteoblastos", "Osteocitos", "Osteoclastos"],
+      "puntos": [
+        "Células osteoprogenitoras: derivan de células madre mesenquimáticas y se ubican en la capa interna del periostio y en el endostio. Se diferencian en osteoblastos (factor de transcripción RUNX2).",
+        "Osteoblastos: células cúbicas y basófilas alineadas sobre la superficie ósea. Sintetizan osteoide y dirigen su mineralización (fosfatasa alcalina). Expresan RANKL, señal que estimula la formación de osteoclastos.",
+        "Osteocitos: osteoblastos que quedaron rodeados por matriz, dentro de lagunas (osteoplastos). Extienden prolongaciones por los canalículos y se comunican mediante uniones comunicantes (gap). Mantienen la matriz y detectan cargas mecánicas.",
+        "Células de revestimiento óseo: osteoblastos inactivos y aplanados que cubren superficies sin remodelación activa.",
+        "Osteoclastos: células gigantes multinucleadas formadas por fusión de precursores del linaje monocito-macrófago (origen hematopoyético). Se ubican en lagunas de resorción (de Howship). Su borde en cepillo, delimitado por una zona de sellado, crea un microambiente ácido donde liberan H⁺ y enzimas como la catepsina K. RANKL los estimula; la calcitonina y la osteoprotegerina (OPG) los inhiben."
+      ],
+      "clave": "Osteo-BLASTO construye, osteo-CLASTO destruye (resorbe) y osteo-CITO mantiene."
+    },
+    {
+      "titulo": "Hueso compacto",
+      "claves": ["Osteona", "Conducto de Havers", "Conducto de Volkmann", "Laminillas"],
+      "texto": [
+        "El hueso compacto (cortical) forma la capa externa densa de todos los huesos y la diáfisis de los huesos largos. Su unidad estructural es la osteona o sistema de Havers: un cilindro formado por 4 a 20 laminillas concéntricas alrededor de un conducto central (de Havers), que lleva vasos sanguíneos, nervios y tejido conectivo laxo.",
+        "Entre las laminillas están las lagunas con osteocitos, unidas entre sí y con el conducto central por canalículos. Los conductos perforantes (de Volkmann) atraviesan el hueso en sentido transversal u oblicuo y conectan los conductos de Havers entre sí, con el periostio y con la cavidad medular. A diferencia de los de Havers, no están rodeados por laminillas concéntricas."
+      ],
+      "puntos": [
+        "Laminillas concéntricas: forman cada osteona; las fibras de colágeno cambian de orientación entre laminillas vecinas.",
+        "Laminillas intersticiales: restos de osteonas antiguas parcialmente resorbidas durante la remodelación.",
+        "Laminillas circunferenciales externas e internas: rodean el hueso bajo el periostio y junto al endostio.",
+        "Línea de cementación: límite externo de cada osteona, pobre en colágeno.",
+        "Periostio: capa fibrosa externa y capa osteogénica interna, anclado al hueso por fibras perforantes (de Sharpey). El endostio reviste las cavidades internas."
+      ]
+    },
+    {
+      "titulo": "Hueso esponjoso",
+      "claves": ["Trabéculas", "Médula ósea", "Diploe"],
+      "texto": [
+        "El hueso esponjoso (trabecular) es una red tridimensional de espículas, o trabéculas, que delimitan espacios ocupados por médula ósea. Las trabéculas están formadas por laminillas, pero en general no tienen osteonas ni conductos de Havers: sus osteocitos se nutren por difusión desde los vasos de la médula, a través de los canalículos.",
+        "Las trabéculas se orientan según las líneas de fuerza a las que está sometido el hueso (ley de Wolff). El hueso esponjoso predomina en las epífisis de los huesos largos, en los cuerpos vertebrales y en los huesos cortos. En los huesos planos del cráneo forma el diploe, entre dos tablas de hueso compacto."
+      ],
+      "clave": "Su gran superficie lo hace metabólicamente más activo. Por eso la osteoporosis afecta primero a vértebras, cadera y muñeca."
+    },
+    {
+      "titulo": "Osificación",
+      "claves": ["Intramembranosa", "Endocondral", "Cartílago de crecimiento"],
+      "texto": [
+        "Osificación intramembranosa (mesenquimática): el hueso se forma directamente en una lámina de mesénquima condensado. Las células mesenquimáticas se diferencian en osteoblastos, que depositan osteoide en centros de osificación; las espículas resultantes se fusionan y forman hueso esponjoso primario. Así se originan los huesos planos de la bóveda craneal, gran parte de los huesos de la cara, la mandíbula y parte de la clavícula.",
+        "Osificación endocondral: el hueso reemplaza un modelo previo de cartílago hialino. En la diáfisis, los condrocitos se hipertrofian, la matriz se calcifica y las células mueren. Un brote perióstico (vasos y células osteoprogenitoras) invade el cartílago y forma el centro primario de osificación. Más tarde aparecen centros secundarios en las epífisis. Entre ambos persiste el cartílago (disco) de crecimiento, que permite el crecimiento en longitud hasta que se cierra."
+      ],
+      "puntos": [
+        "Zonas del cartílago de crecimiento, desde la epífisis hacia la diáfisis: reposo → proliferación → hipertrofia → calcificación → resorción y osificación."
+      ],
+      "clave": "Huesos largos, vértebras, pelvis y base del cráneo se forman por osificación endocondral. Bóveda craneal y cara, por osificación intramembranosa."
+    }
+  ],
+  "visor": {
+    "imagen": "hueso-compacto",
+    "instrucciones": "Hueso compacto preparado por desgaste (sin tinción), en corte transversal. Se ven osteonas con su conducto central y las lagunas rodeadas de canalículos.",
+    "puntos": [
+      { "x": 62.3, "y": 49.8, "titulo": "Conducto central (de Havers)", "descripcion": "Conducto central de la osteona. En vivo contiene capilares, vénulas, nervios y tejido conectivo laxo, revestidos por endostio. En este corte por desgaste aparece como una cavidad oscura." },
+      { "x": 54.5, "y": 63.5, "titulo": "Laminillas concéntricas", "descripcion": "Capas de matriz mineralizada dispuestas en anillos alrededor del conducto central. Las fibras de colágeno de cada laminilla siguen una orientación distinta a la de la vecina, lo que aumenta la resistencia." },
+      { "x": 60.8, "y": 27.3, "titulo": "Laguna (osteoplasto)", "descripcion": "Cavidad que en vivo aloja el cuerpo de un osteocito. En los cortes por desgaste las células se pierden, y las lagunas se ven oscuras por los restos y el aire que retienen." },
+      { "x": 14.6, "y": 17.7, "titulo": "Canalículos", "descripcion": "Finos conductos radiales que unen lagunas vecinas entre sí y con el conducto central. Alojan las prolongaciones de los osteocitos, que se comunican por uniones gap." },
+      { "x": 21.2, "y": 33.7, "titulo": "Osteona vecina", "descripcion": "Otra osteona (sistema de Havers): conducto central, laminillas concéntricas y osteocitos en lagunas, delimitados por la línea de cementación. Es la unidad estructural del hueso compacto." }
+    ]
+  },
+  "flashcards": [
+    { "frente": "Osteoblasto", "categoria": "Células", "reverso": { "Definición": "Célula cúbica y basófila que reviste superficies óseas en formación.", "Función": "Sintetiza el osteoide (colágeno I y proteínas no colágenas) y dirige su mineralización. Expresa RANKL." } },
+    { "frente": "Osteocito", "categoria": "Células", "reverso": { "Ubicación": "Dentro de una laguna (osteoplasto) de la matriz mineralizada.", "Función": "Mantiene la matriz y actúa como mecanosensor. Se comunica con otros osteocitos por prolongaciones en canalículos, unidas por uniones gap." } },
+    { "frente": "Osteoclasto", "categoria": "Células", "reverso": { "Origen": "Fusión de precursores del linaje monocito-macrófago (hematopoyético).", "Función": "Resorción ósea en las lagunas de Howship, mediante su borde en cepillo, H⁺ y catepsina K." } },
+    { "frente": "Célula osteoprogenitora", "categoria": "Células", "reverso": { "Ubicación": "Capa interna del periostio y endostio.", "Función": "Célula madre que se diferencia en osteoblasto (RUNX2)." } },
+    { "frente": "Osteona (sistema de Havers)", "categoria": "Hueso compacto", "reverso": { "Definición": "Unidad estructural del hueso compacto.", "Componentes": "Conducto central, 4 a 20 laminillas concéntricas, osteocitos en lagunas y canalículos, delimitados por la línea de cementación." } },
+    { "frente": "Conducto de Volkmann", "categoria": "Hueso compacto", "reverso": { "Definición": "Conducto perforante transversal u oblicuo.", "Función": "Comunica los conductos de Havers entre sí, con el periostio y con la cavidad medular. No está rodeado por laminillas concéntricas." } },
+    { "frente": "Laminillas intersticiales", "categoria": "Hueso compacto", "reverso": { "Definición": "Fragmentos de laminillas ubicados entre osteonas.", "Origen": "Restos de osteonas antiguas parcialmente resorbidas durante la remodelación." } },
+    { "frente": "Hidroxiapatita", "categoria": "Matriz", "reverso": { "Fórmula": "Ca₁₀(PO₄)₆(OH)₂", "Función": "Componente inorgánico principal de la matriz; da dureza y resistencia a la compresión." } },
+    { "frente": "Periostio", "categoria": "Hueso compacto", "reverso": { "Capas": "Externa fibrosa (tejido conectivo denso) e interna osteogénica (células osteoprogenitoras).", "Anclaje": "Fibras perforantes de Sharpey." } },
+    { "frente": "Hueso esponjoso", "categoria": "Hueso esponjoso", "reverso": { "Estructura": "Red de trabéculas con médula ósea entre ellas; sin osteonas típicas.", "Ubicación": "Epífisis, cuerpos vertebrales, huesos cortos y diploe de los huesos planos." } },
+    { "frente": "Osificación intramembranosa", "categoria": "Osificación", "reverso": { "Mecanismo": "El mesénquima se diferencia directamente en osteoblastos, sin molde de cartílago.", "Ejemplos": "Huesos planos de la bóveda craneal, cara, mandíbula y parte de la clavícula." } },
+    { "frente": "Osificación endocondral", "categoria": "Osificación", "reverso": { "Mecanismo": "El hueso reemplaza un modelo de cartílago hialino (centros primario y secundarios).", "Ejemplos": "Huesos largos, vértebras, pelvis y base del cráneo." } },
+    { "frente": "Cartílago de crecimiento", "categoria": "Osificación", "reverso": { "Ubicación": "Entre epífisis y diáfisis (metáfisis) en huesos en crecimiento.", "Zonas": "Reposo, proliferación, hipertrofia, calcificación, resorción y osificación." } }
+  ],
+  "quiz": [
+    { "tipo": "multiple", "pregunta": "¿Qué célula es la principal responsable de la resorción ósea?", "opciones": ["Osteoblasto", "Osteocito", "Osteoclasto", "Célula osteoprogenitora"], "correcta": 2, "explicacion": "El osteoclasto es una célula multinucleada del linaje monocito-macrófago. Con su borde en cepillo acidifica el medio y libera enzimas que degradan la matriz en las lagunas de Howship. El osteoblasto forma matriz y el osteocito la mantiene." },
+    { "tipo": "vf", "pregunta": "El principal componente inorgánico de la matriz ósea es la hidroxiapatita.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. Los cristales de hidroxiapatita (fosfato de calcio) forman la fracción inorgánica y dan dureza al hueso. El colágeno tipo I es el componente principal de la fracción orgánica." },
+    { "tipo": "multiple", "pregunta": "¿Qué estructuras comunican transversalmente los conductos de Havers entre sí y con el periostio?", "opciones": ["Canalículos", "Conductos de Volkmann", "Laminillas intersticiales", "Trabéculas"], "correcta": 1, "explicacion": "Los conductos de Volkmann (perforantes) atraviesan el hueso compacto en sentido transversal u oblicuo y llevan vasos. Los canalículos solo comunican lagunas de osteocitos entre sí, y no llevan vasos." },
+    { "tipo": "multiple", "pregunta": "¿Qué tipo de colágeno predomina en la matriz ósea?", "opciones": ["Tipo I", "Tipo II", "Tipo III", "Tipo IV"], "correcta": 0, "explicacion": "El colágeno tipo I constituye la mayor parte de la fracción orgánica del hueso. El tipo II es propio del cartílago hialino y elástico, el III de las fibras reticulares y el IV de las láminas basales." },
+    { "tipo": "vf", "pregunta": "El hueso esponjoso está formado típicamente por osteonas con conducto de Havers.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. Las trabéculas del hueso esponjoso están formadas por laminillas, pero en general no tienen osteonas: sus osteocitos se nutren por difusión desde los vasos de la médula ósea." },
+    { "tipo": "multiple", "pregunta": "¿Qué huesos se forman por osificación intramembranosa?", "opciones": ["El fémur", "Los cuerpos vertebrales", "Los huesos planos de la bóveda craneal", "Los huesos de la base del cráneo"], "correcta": 2, "explicacion": "La bóveda craneal, gran parte de los huesos de la cara, la mandíbula y parte de la clavícula se forman directamente desde el mesénquima. El fémur, las vértebras y la base del cráneo se forman sobre un modelo de cartílago (osificación endocondral)." },
+    { "tipo": "multiple", "pregunta": "¿Cómo se comunican los osteocitos entre sí?", "opciones": ["Mediante prolongaciones en canalículos unidas por uniones gap", "A través de los conductos de Volkmann", "Por contacto directo de sus cuerpos celulares en la misma laguna", "No se comunican: están aislados en sus lagunas"], "correcta": 0, "explicacion": "Los osteocitos emiten prolongaciones citoplasmáticas que recorren los canalículos y se unen con las de células vecinas mediante uniones comunicantes (gap). Así intercambian señales y nutrientes a pesar de estar rodeados de matriz mineralizada." },
+    { "tipo": "vf", "pregunta": "Los osteoclastos derivan del linaje monocito-macrófago.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. A diferencia de osteoblastos y osteocitos, que son de origen mesenquimático, los osteoclastos se originan por fusión de precursores hematopoyéticos del linaje monocito-macrófago." },
+    { "tipo": "multiple", "pregunta": "En el cartílago de crecimiento, ¿cuál es la zona más cercana a la epífisis?", "opciones": ["Zona de hipertrofia", "Zona de reposo", "Zona de calcificación", "Zona de proliferación"], "correcta": 1, "explicacion": "El orden desde la epífisis hacia la diáfisis es: reposo, proliferación, hipertrofia, calcificación, y resorción y osificación. La zona de reposo, con condrocitos pequeños y dispersos, es la más cercana a la epífisis." },
+    { "tipo": "multiple", "pregunta": "¿Qué molécula expresada por los osteoblastos estimula la diferenciación de los osteoclastos?", "opciones": ["Osteoprotegerina (OPG)", "Calcitonina", "RANKL", "Osteocalcina"], "correcta": 2, "explicacion": "RANKL se une al receptor RANK de los precursores de osteoclastos y estimula su diferenciación. La osteoprotegerina funciona como receptor señuelo que bloquea a RANKL, y la calcitonina inhibe a los osteoclastos." },
+    { "tipo": "vf", "pregunta": "Las laminillas intersticiales son restos de osteonas antiguas.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. Durante la remodelación, los osteoclastos resorben parcialmente osteonas antiguas, y lo que queda entre las osteonas nuevas son las laminillas intersticiales." },
+    { "tipo": "multiple", "pregunta": "¿Qué estructuras anclan firmemente el periostio al hueso?", "opciones": ["Conductos de Volkmann", "Fibras perforantes (de Sharpey)", "Líneas de cementación", "Canalículos"], "correcta": 1, "explicacion": "Las fibras de Sharpey son haces de colágeno del periostio que penetran en la matriz ósea y lo fijan al hueso, especialmente donde se insertan tendones y ligamentos." }
+  ],
+  "pareados": [
+    { "termino": "Osteoclasto", "definicion": "Célula multinucleada encargada de la resorción ósea." },
+    { "termino": "Osteoblasto", "definicion": "Célula que sintetiza el osteoide y dirige su mineralización." },
+    { "termino": "Osteocito", "definicion": "Célula alojada en una laguna que mantiene la matriz y se comunica por canalículos." },
+    { "termino": "Conducto de Havers", "definicion": "Conducto central de la osteona, con vasos y nervios." },
+    { "termino": "Conducto de Volkmann", "definicion": "Conducto transversal que comunica conductos centrales entre sí y con el periostio." },
+    { "termino": "Trabécula", "definicion": "Espícula ósea que forma la red del hueso esponjoso." },
+    { "termino": "Hidroxiapatita", "definicion": "Cristal de fosfato de calcio que da dureza a la matriz." },
+    { "termino": "Laguna de Howship", "definicion": "Depresión de la superficie ósea donde actúa un osteoclasto." },
+    { "termino": "Periostio", "definicion": "Vaina de tejido conectivo con una capa osteogénica que recubre el hueso." },
+    { "termino": "Línea de cementación", "definicion": "Límite externo de una osteona, pobre en colágeno." }
+  ]
+}

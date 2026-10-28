@@ -1,0 +1,35 @@
+{
+  "titulo": "Osteología",
+  "intro": "Estudio de los huesos: su clasificación, su forma y los reparos anatómicos que permiten describirlos e identificarlos.",
+  "fuentes": ["Latarjet M, Ruiz Liard A. Anatomía humana", "Moore KL, Dalley AF. Anatomía con orientación clínica"],
+  "pendiente": "Fase 2: se agregarán flashcards, quiz y pareados de Osteología, junto con la región Extremidad Inferior.",
+  "secciones": [
+    {
+      "titulo": "Clasificación ósea y reparos anatómicos",
+      "claves": ["Fémur", "Tibia", "Coxal"],
+      "texto": [
+        "Según su forma, los huesos se clasifican en largos (predomina la longitud, como el fémur o el húmero), cortos (dimensiones similares, como los del carpo y el tarso), planos (como la escápula o los parietales), irregulares (como las vértebras), sesamoideos (desarrollados dentro de un tendón, como la patela) y neumáticos (con cavidades aéreas, como el maxilar).",
+        "Un hueso largo tiene una diáfisis (cuerpo), dos epífisis (extremos) y metáfisis entre ambas, donde se ubica el cartílago de crecimiento durante el desarrollo."
+      ],
+      "puntos": [
+        "Fémur: cabeza, cuello, trocánteres mayor y menor, línea áspera, cóndilos medial y lateral, epicóndilos y cara patelar.",
+        "Tibia: cóndilos medial y lateral (meseta tibial), eminencia intercondílea, tuberosidad tibial, borde anterior y maléolo medial.",
+        "Coxal: formado por ilion, isquion y pubis, que se unen en el acetábulo. Reparos: cresta ilíaca, espina ilíaca anterosuperior (EIAS), tuberosidad isquiática y foramen obturado."
+      ]
+    }
+  ],
+  "diagrama": {
+    "imagen": "femur-anterior",
+    "instrucciones": "Fémur derecho en vista anterior. Escribe el nombre de cada estructura numerada.",
+    "marcadores": [
+      { "n": 1, "x": 73, "y": 12.3, "respuestas": ["Cabeza del fémur", "Cabeza femoral", "Cabeza"] },
+      { "n": 2, "x": 63, "y": 17.4, "respuestas": ["Cuello del fémur", "Cuello femoral", "Cuello anatómico", "Cuello"] },
+      { "n": 3, "x": 34.5, "y": 15, "respuestas": ["Trocánter mayor", "Gran trocánter"] },
+      { "n": 4, "x": 60, "y": 30.7, "respuestas": ["Trocánter menor", "Pequeño trocánter"] },
+      { "n": 5, "x": 47.5, "y": 54.3, "respuestas": ["Cuerpo del fémur", "Diáfisis", "Diáfisis femoral", "Cuerpo"] },
+      { "n": 6, "x": 65.5, "y": 88.3, "respuestas": ["Cóndilo medial", "Cóndilo interno"] },
+      { "n": 7, "x": 34.5, "y": 88.3, "respuestas": ["Cóndilo lateral", "Cóndilo externo"] },
+      { "n": 8, "x": 50, "y": 82.1, "respuestas": ["Cara patelar", "Superficie patelar", "Tróclea femoral", "Tróclea"] }
+    ]
+  }
+}

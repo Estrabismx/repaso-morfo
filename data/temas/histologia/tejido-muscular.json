@@ -1,0 +1,110 @@
+{
+  "titulo": "Tejido Muscular",
+  "intro": "Tejido formado por células especializadas en la contracción. Según su estructura y control se divide en estriado esquelético, estriado cardíaco y liso.",
+  "fuentes": ["Ross MH, Pawlina W. Histología: texto y atlas", "Junqueira LC, Carneiro J. Histología básica"],
+  "secciones": [
+    {
+      "titulo": "Músculo estriado esquelético",
+      "claves": ["Sarcómero", "Triadas", "Epimisio", "Perimisio", "Endomisio"],
+      "texto": [
+        "Las fibras musculares esqueléticas son células cilíndricas muy largas y multinucleadas (un sincitio formado por la fusión de mioblastos), con los núcleos en la periferia, bajo el sarcolema. Su contracción es voluntaria y rápida. En corte longitudinal muestran estriaciones transversales, debidas a la disposición ordenada de sus miofibrillas.",
+        "El sarcómero es la unidad contráctil: el segmento de miofibrilla entre dos líneas Z. Los filamentos delgados (actina, con tropomiosina y troponina) se anclan a las líneas Z, y los filamentos gruesos (miosina) ocupan el centro, unidos a la línea M. La banda A (oscura) corresponde a la longitud de los filamentos gruesos. La banda I (clara) contiene solo filamentos delgados y está dividida por la línea Z. La zona H es la parte central de la banda A donde no hay superposición con actina.",
+        "Durante la contracción los filamentos se deslizan entre sí: la banda I y la zona H se acortan, mientras la banda A mantiene su longitud.",
+        "La triada está formada por un túbulo T (invaginación del sarcolema) flanqueado por dos cisternas terminales del retículo sarcoplásmico. En el músculo esquelético de los mamíferos se ubica en la unión entre las bandas A e I, y acopla la excitación eléctrica con la liberación de Ca²⁺."
+      ],
+      "puntos": [
+        "Endomisio: rodea cada fibra muscular (lámina basal y fibras reticulares).",
+        "Perimisio: rodea cada fascículo, es decir, cada grupo de fibras.",
+        "Epimisio: tejido conectivo denso que envuelve el músculo completo."
+      ],
+      "clave": "Las células satélite, ubicadas bajo la lámina basal de cada fibra, permiten una regeneración limitada del músculo esquelético."
+    },
+    {
+      "titulo": "Músculo estriado cardíaco",
+      "claves": ["Discos intercalares", "Núcleo central", "Díadas", "Purkinje"],
+      "texto": [
+        "Los cardiomiocitos son células cortas y ramificadas, con uno o dos núcleos centrales, a menudo rodeados por una zona clara con glucógeno y gránulos de lipofuscina. Tienen el mismo patrón de estriaciones que el músculo esquelético, pero su contracción es involuntaria y rítmica.",
+        "Los discos intercalares son uniones especializadas entre cardiomiocitos consecutivos, que se ven como líneas transversales escalonadas. Su porción transversal contiene fascias adherentes (anclan los filamentos de actina) y desmosomas (unión mecánica). Su porción lateral contiene uniones comunicantes (gap), que permiten el paso de iones y la propagación sincrónica del impulso.",
+        "Los túbulos T son más anchos que en el músculo esquelético y se ubican a nivel de la línea Z; junto con una cisterna del retículo sarcoplásmico forman díadas.",
+        "Las fibras de Purkinje son cardiomiocitos modificados del sistema de conducción, ubicados en el subendocardio. Son más grandes y pálidas que los cardiomiocitos comunes, ricas en glucógeno y con pocas miofibrillas periféricas, y conducen rápidamente el impulso a los ventrículos."
+      ],
+      "clave": "El músculo cardíaco adulto prácticamente no se regenera. Tras un infarto, el tejido necrótico es reemplazado por tejido conectivo fibroso (una cicatriz)."
+    },
+    {
+      "titulo": "Músculo liso",
+      "claves": ["Células fusiformes", "Cuerpos densos", "Calmodulina", "Sin sarcómeros"],
+      "texto": [
+        "Las células musculares lisas son fusiformes y tienen un solo núcleo central alargado, que al contraerse puede adoptar forma de sacacorchos. No presentan estriaciones porque sus filamentos de actina y miosina no forman sarcómeros: se disponen en una red oblicua anclada a cuerpos densos del citoplasma y a placas densas del sarcolema, equivalentes a las líneas Z.",
+        "No tienen túbulos T; en su lugar presentan caveolas y un retículo sarcoplásmico poco desarrollado. El Ca²⁺ se une a la calmodulina, que activa la cinasa de la cadena ligera de miosina (MLCK); la fosforilación de la miosina inicia la contracción. Esta es lenta, sostenida y de bajo gasto energético, y la regulan el sistema nervioso autónomo, hormonas y estímulos locales."
+      ],
+      "puntos": [
+        "Se encuentra en las paredes de las vísceras huecas (tubo digestivo, vías respiratorias, útero, vejiga), en los vasos sanguíneos, en los músculos erectores del pelo y en el iris.",
+        "Las células se comunican por uniones gap, lo que permite que se contraigan de forma coordinada."
+      ],
+      "clave": "A diferencia del músculo cardíaco, el músculo liso conserva la capacidad de dividirse. Un ejemplo es la hiperplasia del miometrio durante el embarazo."
+    }
+  ],
+  "visor": {
+    "imagen": "musculo-cardiaco",
+    "instrucciones": "Músculo cardíaco en corte longitudinal (400x). Amplía la imagen para ver las estriaciones y los discos intercalares.",
+    "puntos": [
+      { "x": 55.7, "y": 38.4, "titulo": "Núcleo central", "descripcion": "Núcleo ovalado en el centro de la célula, con una zona clara perinuclear. Los núcleos centrales diferencian al músculo cardíaco del esquelético, cuyos núcleos son periféricos." },
+      { "x": 36.6, "y": 61.6, "titulo": "Disco intercalar", "descripcion": "Línea transversal oscura y escalonada que marca la unión entre dos cardiomiocitos consecutivos. Contiene fascias adherentes, desmosomas y uniones comunicantes (gap)." },
+      { "x": 22.3, "y": 56.8, "titulo": "Endomisio", "descripcion": "Espacios claros entre las fibras, con tejido conectivo laxo y abundantes capilares que irrigan el miocardio." },
+      { "x": 72.7, "y": 77.6, "titulo": "Estriaciones transversales", "descripcion": "Bandas claras y oscuras que se alternan (bandas I y A). Reflejan la organización en sarcómeros, igual que en el músculo esquelético." }
+    ]
+  },
+  "diagrama": {
+    "imagen": "sarcomero",
+    "instrucciones": "Escribe el nombre de cada estructura del sarcómero, o activa «Elegir de una lista».",
+    "marcadores": [
+      { "n": 1, "x": 15, "y": 11.5, "respuestas": ["Línea Z", "Disco Z", "Banda Z"] },
+      { "n": 2, "x": 85, "y": 19.2, "respuestas": ["Banda I", "Banda isótropa", "Banda clara"] },
+      { "n": 3, "x": 10, "y": 63.5, "respuestas": ["Banda A", "Banda anisótropa", "Banda oscura"] },
+      { "n": 4, "x": 85, "y": 46.2, "respuestas": ["Zona H", "Banda H"] },
+      { "n": 5, "x": 17.5, "y": 50, "respuestas": ["Línea M", "Banda M", "Disco M"] },
+      { "n": 6, "x": 42.5, "y": 34.6, "respuestas": ["Filamento grueso", "Miosina", "Filamento de miosina"] },
+      { "n": 7, "x": 33.75, "y": 19.2, "respuestas": ["Filamento delgado", "Actina", "Filamento de actina"] }
+    ]
+  },
+  "flashcards": [
+    { "frente": "Sarcómero", "categoria": "Esquelético", "reverso": { "Definición": "Unidad contráctil de la miofibrilla, entre dos líneas Z.", "Componentes": "Filamentos delgados (actina) anclados en Z y gruesos (miosina) anclados en M." } },
+    { "frente": "Banda A", "categoria": "Esquelético", "reverso": { "Definición": "Banda oscura (anisótropa) del sarcómero.", "Contenido": "Toda la longitud de los filamentos gruesos. No cambia de longitud al contraerse." } },
+    { "frente": "Banda I", "categoria": "Esquelético", "reverso": { "Definición": "Banda clara (isótropa), dividida por la línea Z.", "Contenido": "Solo filamentos delgados. Se acorta durante la contracción." } },
+    { "frente": "Zona H", "categoria": "Esquelético", "reverso": { "Definición": "Región central de la banda A, atravesada por la línea M.", "Contenido": "Solo filamentos gruesos (sin superposición con actina). Se acorta al contraerse." } },
+    { "frente": "Triada", "categoria": "Esquelético", "reverso": { "Composición": "Un túbulo T y dos cisternas terminales del retículo sarcoplásmico.", "Ubicación y función": "Unión A-I; acopla la excitación con la liberación de Ca²⁺." } },
+    { "frente": "Endomisio, perimisio y epimisio", "categoria": "Esquelético", "reverso": { "Endomisio": "Rodea cada fibra muscular.", "Perimisio": "Rodea cada fascículo.", "Epimisio": "Envuelve el músculo completo." } },
+    { "frente": "Célula satélite", "categoria": "Esquelético", "reverso": { "Ubicación": "Entre el sarcolema y la lámina basal de la fibra esquelética.", "Función": "Célula madre que permite la regeneración muscular." } },
+    { "frente": "Disco intercalar", "categoria": "Cardíaco", "reverso": { "Ubicación": "Unión entre cardiomiocitos consecutivos.", "Componentes": "Fascias adherentes y desmosomas (porción transversal); uniones gap (porción lateral)." } },
+    { "frente": "Fibra de Purkinje", "categoria": "Cardíaco", "reverso": { "Definición": "Cardiomiocito modificado del sistema de conducción, en el subendocardio.", "Características": "Grande, pálida, rica en glucógeno y con pocas miofibrillas; conduce el impulso rápidamente." } },
+    { "frente": "Díada", "categoria": "Cardíaco", "reverso": { "Composición": "Un túbulo T y una cisterna del retículo sarcoplásmico.", "Ubicación": "A nivel de la línea Z en el cardiomiocito." } },
+    { "frente": "Cuerpos densos", "categoria": "Liso", "reverso": { "Definición": "Estructuras citoplasmáticas del músculo liso ricas en α-actinina.", "Función": "Anclan los filamentos de actina (equivalentes a las líneas Z)." } },
+    { "frente": "Calmodulina", "categoria": "Liso", "reverso": { "Función": "Proteína que une Ca²⁺ en el músculo liso y activa la cinasa de la cadena ligera de miosina (MLCK).", "Comparación": "En el músculo estriado, el Ca²⁺ se une a la troponina C." } }
+  ],
+  "quiz": [
+    { "tipo": "multiple", "pregunta": "Durante la contracción del músculo esquelético, ¿qué banda del sarcómero mantiene su longitud?", "opciones": ["Banda I", "Zona H", "Banda A", "Distancia entre líneas Z"], "correcta": 2, "explicacion": "La banda A corresponde a la longitud de los filamentos gruesos, que no cambia. Al deslizarse los filamentos, se acortan la banda I, la zona H y la distancia entre líneas Z." },
+    { "tipo": "vf", "pregunta": "Las fibras musculares esqueléticas tienen núcleos centrales.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. Las fibras esqueléticas son multinucleadas con núcleos periféricos, bajo el sarcolema. Los núcleos centrales son propios del músculo cardíaco y del liso." },
+    { "tipo": "multiple", "pregunta": "¿Cómo está formada una triada?", "opciones": ["Dos túbulos T y una cisterna terminal", "Un túbulo T y dos cisternas terminales del retículo sarcoplásmico", "Una línea Z y dos filamentos gruesos", "Un disco intercalar y dos cardiomiocitos"], "correcta": 1, "explicacion": "La triada tiene un túbulo T central flanqueado por dos cisternas terminales del retículo sarcoplásmico. El potencial de acción que viaja por el túbulo T provoca la liberación de Ca²⁺ desde las cisternas." },
+    { "tipo": "multiple", "pregunta": "En el músculo esquelético de los mamíferos, ¿dónde se ubican las triadas?", "opciones": ["En la línea M", "En la línea Z", "En la unión entre las bandas A e I", "En la zona H"], "correcta": 2, "explicacion": "En el músculo esquelético de los mamíferos, las triadas están en la unión A-I, de modo que cada sarcómero tiene dos. En el músculo cardíaco, las díadas se ubican a nivel de la línea Z." },
+    { "tipo": "multiple", "pregunta": "¿Qué envoltura de tejido conectivo rodea a cada fascículo muscular?", "opciones": ["Endomisio", "Perimisio", "Epimisio", "Sarcolema"], "correcta": 1, "explicacion": "El perimisio rodea los fascículos, el endomisio rodea cada fibra y el epimisio envuelve el músculo completo. El sarcolema es la membrana plasmática de la fibra, no una envoltura conectiva." },
+    { "tipo": "multiple", "pregunta": "¿Qué componente de los discos intercalares permite el acoplamiento eléctrico entre cardiomiocitos?", "opciones": ["Desmosomas", "Fascias adherentes", "Uniones comunicantes (gap)", "Hemidesmosomas"], "correcta": 2, "explicacion": "Las uniones gap, en la porción lateral del disco, permiten el paso de iones de una célula a otra, de modo que el miocardio se contrae de forma sincrónica. Los desmosomas y las fascias adherentes son uniones mecánicas." },
+    { "tipo": "vf", "pregunta": "Las fibras de Purkinje tienen más miofibrillas que los cardiomiocitos comunes.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. Las fibras de Purkinje tienen pocas miofibrillas, ubicadas en la periferia, y abundante glucógeno; por eso se ven más pálidas. Están especializadas en conducir el impulso, no en contraerse." },
+    { "tipo": "multiple", "pregunta": "¿Por qué el músculo liso no presenta estriaciones?", "opciones": ["Porque no tiene actina", "Porque no tiene miosina", "Porque sus filamentos no se organizan en sarcómeros", "Porque no tiene calcio intracelular"], "correcta": 2, "explicacion": "El músculo liso tiene actina y miosina, pero dispuestas en una red oblicua anclada a cuerpos densos, sin formar sarcómeros alineados. Por eso no se ven bandas." },
+    { "tipo": "multiple", "pregunta": "En el músculo liso, ¿qué proteína une Ca²⁺ para iniciar la contracción?", "opciones": ["Troponina C", "Calmodulina", "Tropomiosina", "Titina"], "correcta": 1, "explicacion": "El músculo liso no tiene troponina. El Ca²⁺ se une a la calmodulina, que activa la MLCK; esta fosforila la miosina e inicia la contracción. La troponina C cumple ese papel en el músculo estriado." },
+    { "tipo": "vf", "pregunta": "En el músculo cardíaco, los túbulos T forman díadas a nivel de la línea Z.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. En el cardiomiocito, cada túbulo T se asocia con una sola cisterna del retículo sarcoplásmico, y esa díada se ubica a nivel de la línea Z." },
+    { "tipo": "multiple", "pregunta": "¿Qué tipo de músculo tiene células ramificadas con uno o dos núcleos centrales?", "opciones": ["Estriado esquelético", "Estriado cardíaco", "Liso", "Todos"], "correcta": 1, "explicacion": "Los cardiomiocitos son ramificados y tienen uno o dos núcleos centrales. Las fibras esqueléticas son multinucleadas con núcleos periféricos, y las células lisas son fusiformes, con un núcleo." },
+    { "tipo": "multiple", "pregunta": "¿Qué células permiten la regeneración del músculo esquelético?", "opciones": ["Fibroblastos del perimisio", "Células satélite", "Fibras de Purkinje", "Miofibroblastos"], "correcta": 1, "explicacion": "Las células satélite son células madre ubicadas bajo la lámina basal de las fibras esqueléticas. Ante una lesión proliferan y se fusionan para reparar o formar fibras." }
+  ],
+  "pareados": [
+    { "termino": "Sarcómero", "definicion": "Unidad contráctil comprendida entre dos líneas Z." },
+    { "termino": "Triada", "definicion": "Túbulo T flanqueado por dos cisternas terminales del retículo sarcoplásmico." },
+    { "termino": "Endomisio", "definicion": "Tejido conectivo que rodea cada fibra muscular." },
+    { "termino": "Perimisio", "definicion": "Tejido conectivo que rodea cada fascículo." },
+    { "termino": "Epimisio", "definicion": "Tejido conectivo denso que envuelve el músculo completo." },
+    { "termino": "Disco intercalar", "definicion": "Unión escalonada entre cardiomiocitos con desmosomas y uniones gap." },
+    { "termino": "Fibra de Purkinje", "definicion": "Cardiomiocito modificado, pálido y rico en glucógeno, que conduce el impulso." },
+    { "termino": "Cuerpo denso", "definicion": "Punto de anclaje de la actina en el músculo liso." },
+    { "termino": "Banda A", "definicion": "Banda oscura que corresponde a la longitud de los filamentos gruesos." },
+    { "termino": "Zona H", "definicion": "Parte central de la banda A sin superposición con actina." }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "titulo": "Artrología",
+  "intro": "Estudio de las articulaciones: cómo se unen los huesos y qué movimientos permiten.",
+  "fuentes": ["Latarjet M, Ruiz Liard A. Anatomía humana", "Moore KL, Dalley AF. Anatomía con orientación clínica"],
+  "pendiente": "Fase 2: se agregarán la clasificación completa de las articulaciones, flashcards, quiz y pareados.",
+  "secciones": [
+    {
+      "titulo": "Articulaciones principales",
+      "claves": ["Coxofemoral", "Femorotibial", "Femoropatelar"],
+      "puntos": [
+        "Coxofemoral: articulación sinovial esferoidea entre la cabeza del fémur y el acetábulo del coxal, profundizado por el labrum acetabular. Está reforzada por los ligamentos iliofemoral, pubofemoral e isquiofemoral. Permite flexión-extensión, abducción-aducción y rotaciones.",
+        "Femorotibial: articulación sinovial bicondílea entre los cóndilos del fémur y la meseta tibial. Tiene meniscos medial y lateral (fibrocartílago) que mejoran la congruencia, y la estabilizan los ligamentos cruzados anterior y posterior y los colaterales tibial y peroneo.",
+        "Femoropatelar: entre la cara posterior de la patela y la cara patelar del fémur. Junto con la femorotibial forma la articulación de la rodilla, con una cápsula sinovial común."
+      ]
+    }
+  ]
+}

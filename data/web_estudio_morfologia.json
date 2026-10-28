@@ -1,0 +1,103 @@
+{
+    "proyecto": "Web_Interactiva_Morfologia",
+    "descripcion": "Plataforma web educativa e interactiva para el estudio de Morfología (Histología y Anatomía), orientada a estudiantes de ciencias de la salud.",
+    "arquitectura_navegacion": [
+        {
+            "modulo": "Histología",
+            "temas": [
+                "Tejido Cartilaginoso",
+                "Tejido Óseo",
+                "Tejido Muscular"
+            ]
+        },
+        {
+            "modulo": "Anatomía",
+            "temas": [
+                "Osteología",
+                "Artrología",
+                "Miología"
+            ],
+            "regiones": [
+                "Cabeza y Cuello",
+                "Tórax y Dorso",
+                "Abdomen y Pelvis",
+                "Extremidad Superior",
+                "Extremidad Inferior"
+            ]
+        }
+    ],
+    "base_datos_contenidos": {
+        "Histologia": {
+            "Tejido_Cartilaginoso": [
+                "Matriz extracelular (fibrilar/no fibrilar)",
+                "Tipos: Hialino, Elástico, Fibrocartílago",
+                "Células (condroblastos, condrocitos)",
+                "Pericondrio y crecimiento"
+            ],
+            "Tejido_Oseo": [
+                "Matriz ósea (hidroxiapatita, colágeno I)",
+                "Células (osteoblastos, osteocitos, osteoclastos)",
+                "Hueso Compacto (Osteonas, Havers)",
+                "Hueso Esponjoso (Trabéculas)",
+                "Osificación (Endocondral, Mesenquimática)"
+            ],
+            "Tejido_Muscular": [
+                "Estriado Esquelético (Sarcómero, triadas, epimisio/perimisio/endomisio)",
+                "Estriado Cardíaco (Discos intercalares, Purkinje)",
+                "Liso (Contracción sin sarcómero)"
+            ]
+        },
+        "Anatomia": {
+            "Huesos_Articulaciones": [
+                "Clasificación ósea y reparos anatómicos (ej. Fémur, Tibia, Coxal)",
+                "Articulaciones principales (Coxofemoral, Femorotibial, Femoropatelar)"
+            ],
+            "Musculos": [
+                "Origen, inserción y función (agonista, antagonista, sinergista, fijador)",
+                "Nomenclatura por forma, vientres y cabezas (ej. Bíceps, Digástrico, Fusiforme)"
+            ]
+        }
+    },
+    "actividades_didacticas_interactivas": [
+        {
+            "tipo": "Visor_de_Imagenes_Interactivo",
+            "descripcion": "Módulo con imágenes anatómicas y cortes histológicos. Permite hacer zoom, paneo y hacer clic en 'puntos calientes' (hotspots) para revelar nombres y descripciones de las estructuras (ej. identificar lagunas óseas o discos intercalares).",
+            "tecnologias_sugeridas": [
+                "Canvas API",
+                "SVG interactivos",
+                "Librerías de Pan/Zoom"
+            ]
+        },
+        {
+            "tipo": "Tarjetas_de_Estudio_Flashcards",
+            "descripcion": "Tarjetas interactivas que muestran un concepto o imagen en el anverso (ej. 'Músculo Sartorio') y su definición, función o inervación en el reverso al hacer clic para voltearlas.",
+            "tecnologias_sugeridas": [
+                "CSS 3D Transforms (Flip)"
+            ]
+        },
+        {
+            "tipo": "Quiz_Evaluativo_Dinamico",
+            "descripcion": "Cuestionario de opción múltiple y verdadero/falso. Debe incluir retroalimentación inmediata (explicando por qué la respuesta es correcta o incorrecta en base a los apuntes) y un puntaje final.",
+            "tecnologias_sugeridas": [
+                "React State",
+                "Vue Reactivity"
+            ]
+        },
+        {
+            "tipo": "Terminos_Pareados_Drag_and_Drop",
+            "descripcion": "Actividad donde el estudiante arrastra un concepto (ej. 'Osteoclasto') y lo suelta en la caja con su definición correcta (ej. 'Célula multinucleada encargada de la resorción ósea').",
+            "tecnologias_sugeridas": [
+                "HTML5 Drag and Drop API",
+                "React DnD"
+            ]
+        },
+        {
+            "tipo": "Identificacion_Numerica_Diagramas",
+            "descripcion": "Un diagrama o fantoma con números apuntando a estructuras. El usuario debe escribir o seleccionar de una lista desplegable el nombre anatómico correcto para cada número.",
+            "tecnologias_sugeridas": [
+                "Formularios dinámicos",
+                "Validación en tiempo real"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <!-- Sarcómero en orientación vertical: Z (arriba y abajo), M al centro. -->
+  <rect width="400" height="520" fill="#f8fafc"/>
+
+  <!-- Bandas -->
+  <rect x="30" y="140" width="340" height="240" fill="#dbeafe"/>
+  <rect x="30" y="220" width="340" height="80" fill="#eff6ff"/>
+
+  <!-- Filamentos delgados (actina) desde cada línea Z -->
+  <g stroke="#0d9488" stroke-width="3" stroke-linecap="round">
+    <line x1="65" y1="60" x2="65" y2="220"/><line x1="135" y1="60" x2="135" y2="220"/>
+    <line x1="205" y1="60" x2="205" y2="220"/><line x1="275" y1="60" x2="275" y2="220"/>
+    <line x1="345" y1="60" x2="345" y2="220"/>
+    <line x1="65" y1="460" x2="65" y2="300"/><line x1="135" y1="460" x2="135" y2="300"/>
+    <line x1="205" y1="460" x2="205" y2="300"/><line x1="275" y1="460" x2="275" y2="300"/>
+    <line x1="345" y1="460" x2="345" y2="300"/>
+  </g>
+
+  <!-- Filamentos gruesos (miosina) con cabezas, sin cabezas en la zona desnuda central -->
+  <g id="grueso">
+    <rect x="95" y="140" width="10" height="240" rx="5" fill="#7c3aed"/>
+    <g stroke="#7c3aed" stroke-width="2.5" stroke-linecap="round">
+      <path d="M95 150 l-8 -6 M95 170 l-8 -6 M95 190 l-8 -6 M95 210 l-8 -6 M95 230 l-8 -6
+               M105 150 l8 -6 M105 170 l8 -6 M105 190 l8 -6 M105 210 l8 -6 M105 230 l8 -6
+               M95 290 l-8 6 M95 310 l-8 6 M95 330 l-8 6 M95 350 l-8 6 M95 370 l-8 6
+               M105 290 l8 6 M105 310 l8 6 M105 330 l8 6 M105 350 l8 6 M105 370 l8 6"/>
+    </g>
+  </g>
+  <use href="#grueso" x="70"/>
+  <use href="#grueso" x="140"/>
+  <use href="#grueso" x="210"/>
+
+  <!-- Línea M -->
+  <line x1="40" y1="260" x2="360" y2="260" stroke="#7c3aed" stroke-width="3" stroke-dasharray="6 5"/>
+
+  <!-- Líneas Z (en zigzag) -->
+  <g fill="none" stroke="#0f172a" stroke-width="4" stroke-linejoin="round">
+    <path d="M40 60 l15 -8 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l10 8"/>
+    <path d="M40 460 l15 -8 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l15 16 l15 -16 l10 8"/>
+  </g>
+
+  <!-- Llaves laterales de referencia (sin nombres, para no revelar respuestas) -->
+  <g stroke="#94a3b8" stroke-width="1.5" fill="none">
+    <path d="M378 60 h6 v80 h-6"/><path d="M378 140 h10 v240 h-10"/><path d="M378 380 h6 v80 h-6"/>
+    <path d="M18 60 h-6 v400 h6"/>
+  </g>
+  <text x="200" y="505" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#64748b">1 sarcómero (de línea Z a línea Z)</text>
+</svg>

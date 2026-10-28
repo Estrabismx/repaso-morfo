@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Plataforma interactiva para el estudio de Morfología: Histología y Anatomía." />
+    <meta name="theme-color" content="#0369a1" />
+    <title>Repaso Morfo</title>
+    <link rel="icon" href="img/icono.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+    <header class="barra-superior">
+      <a href="#/" class="marca">
+        <img src="img/icono.svg" alt="" width="32" height="32" />
+        <span>Repaso Morfo</span>
+      </a>
+    </header>
+
+    <div class="layout">
+      <nav class="lateral" id="lateral" aria-label="Temario"></nav>
+      <main id="contenido" class="contenido" tabindex="-1">
+        <p class="cargando">Cargando…</p>
+      </main>
+    </div>
+
+    <nav class="barra-inferior" aria-label="Navegación principal">
+      <a href="#/" data-tab="inicio"><span class="ico" aria-hidden="true">⌂</span>Inicio</a>
+      <a href="#/m/histologia" data-tab="histologia"><span class="ico" aria-hidden="true">🔬</span>Histología</a>
+      <a href="#/m/anatomia" data-tab="anatomia"><span class="ico" aria-hidden="true">🦴</span>Anatomía</a>
+      <a href="#/actividades" data-tab="actividades"><span class="ico" aria-hidden="true">✎</span>Actividades</a>
+      <button type="button" id="abrir-menu" aria-controls="menu" aria-expanded="false">
+        <span class="ico" aria-hidden="true">☰</span>Menú
+      </button>
+    </nav>
+
+    <div class="hoja" id="menu" role="dialog" aria-modal="true" aria-label="Temario completo" hidden>
+      <div class="hoja-fondo" data-cerrar></div>
+      <div class="hoja-panel">
+        <div class="hoja-cabecera">
+          <strong>Temario</strong>
+          <button type="button" class="btn-icono" data-cerrar aria-label="Cerrar menú">✕</button>
+        </div>
+        <div class="hoja-cuerpo" id="menu-cuerpo"></div>
+      </div>
+    </div>
+
+    <noscript>Esta página necesita JavaScript para funcionar.</noscript>
+  </body>
+</html>

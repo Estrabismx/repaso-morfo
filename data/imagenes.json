@@ -1,0 +1,54 @@
+{
+  "hueso-compacto": {
+    "titulo": "Hueso compacto, corte por desgaste (osteonas)",
+    "src": "img/histologia/hueso-compacto.webp",
+    "alt": "Microfotografía de hueso compacto por desgaste: osteonas con su conducto central, laminillas concéntricas y lagunas con canalículos.",
+    "ancho": 1028,
+    "alto": 677,
+    "autor": "RWhitwam, Wikimedia Commons",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Compact_bone_093B.png",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modificacion": "Recortada (panel sin rótulos) y convertida a WebP"
+  },
+  "cartilago-hialino": {
+    "titulo": "Cartílago hialino de tráquea (H-E, 100x)",
+    "src": "img/histologia/cartilago-hialino.webp",
+    "alt": "Microfotografía de cartílago hialino teñido con hematoxilina-eosina: pericondrio, condrocitos en lagunas y matriz.",
+    "ancho": 1280,
+    "alto": 722,
+    "autor": "Berkshire Community College Bioscience Image Library",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Hyaline_Cartilage_(40958872915).jpg",
+    "licencia": "CC0 (dominio público)",
+    "licenciaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modificacion": "Convertida a WebP"
+  },
+  "musculo-cardiaco": {
+    "titulo": "Músculo cardíaco, corte longitudinal (400x)",
+    "src": "img/histologia/musculo-cardiaco.webp",
+    "alt": "Microfotografía de músculo cardíaco en corte longitudinal: fibras estriadas, núcleos centrales y discos intercalares.",
+    "ancho": 1280,
+    "alto": 722,
+    "autor": "Berkshire Community College Bioscience Image Library",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Muscle_Tissue_Intercalated_Discs_in_Cardiac_Muscle_(41931906821).jpg",
+    "licencia": "CC0 (dominio público)",
+    "licenciaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modificacion": "Convertida a WebP"
+  },
+  "sarcomero": {
+    "titulo": "Esquema del sarcómero",
+    "src": "img/diagramas/sarcomero.svg",
+    "alt": "Esquema de un sarcómero con filamentos delgados y gruesos entre dos líneas Z, con estructuras numeradas.",
+    "ancho": 400,
+    "alto": 520,
+    "autor": "Repaso Morfo (elaboración propia)"
+  },
+  "femur-anterior": {
+    "titulo": "Fémur derecho, vista anterior (esquema)",
+    "src": "img/diagramas/femur-anterior.svg",
+    "alt": "Esquema simplificado del fémur derecho en vista anterior con estructuras numeradas.",
+    "ancho": 400,
+    "alto": 700,
+    "autor": "Repaso Morfo (elaboración propia)"
+  }
+}

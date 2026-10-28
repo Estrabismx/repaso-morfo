@@ -1,0 +1,32 @@
+{
+  "titulo": "Miología",
+  "intro": "Estudio de los músculos esqueléticos: sus inserciones, su acción y cómo se nombran.",
+  "fuentes": ["Latarjet M, Ruiz Liard A. Anatomía humana", "Moore KL, Dalley AF. Anatomía con orientación clínica"],
+  "pendiente": "Fase 2: se agregarán flashcards (como la del músculo sartorio), quiz y pareados de Miología.",
+  "secciones": [
+    {
+      "titulo": "Origen, inserción y función",
+      "claves": ["Agonista", "Antagonista", "Sinergista", "Fijador"],
+      "texto": [
+        "El origen suele ser la inserción proximal, que permanece más fija durante la contracción, y la inserción propiamente tal suele ser la distal y más móvil. Esta convención puede invertirse según el movimiento: por ejemplo, al hacer una dominada, el brazo se fija y el tronco se mueve."
+      ],
+      "puntos": [
+        "Agonista (motor principal): el músculo que realiza principalmente un movimiento.",
+        "Antagonista: realiza la acción opuesta y se relaja de forma controlada mientras actúa el agonista.",
+        "Sinergista: complementa la acción del agonista o neutraliza movimientos no deseados.",
+        "Fijador: estabiliza el segmento proximal para que el agonista actúe con eficacia."
+      ]
+    },
+    {
+      "titulo": "Nomenclatura por forma, vientres y cabezas",
+      "claves": ["Bíceps", "Digástrico", "Fusiforme"],
+      "puntos": [
+        "Por su forma: deltoides (triangular), trapecio, romboides, redondo, cuadrado.",
+        "Por la disposición de sus fibras: fusiforme (vientre central más ancho), peniforme, semipeniforme o multipeniforme, plano o ancho.",
+        "Por el número de cabezas: bíceps (2), tríceps (3), cuádriceps (4).",
+        "Por el número de vientres: digástrico (dos vientres unidos por un tendón intermedio).",
+        "También por su ubicación (tibial anterior), tamaño (glúteo mayor), dirección de sus fibras (oblicuo externo) o acción (aductor largo)."
+      ]
+    }
+  ]
+}
