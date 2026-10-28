@@ -33,7 +33,7 @@ data/
   web_estudio_morfologia.json   Estructura del sitio (módulos, temas, regiones)
   imagenes.json                 Imágenes con autoría y licencia
   temas/<modulo>/<tema>.json    Contenido de cada tema
-  regiones/<region>.json        Contenido de cada región (Fases 2 y 3)
+  regiones/<region>.json        Contenido de cada región anatómica
 img/                        Microfotografías (WebP) y esquemas SVG
 ```
 

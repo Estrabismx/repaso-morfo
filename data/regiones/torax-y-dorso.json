@@ -1,0 +1,87 @@
+{
+  "titulo": "Tórax y Dorso",
+  "intro": "Caja torácica, columna vertebral, músculos respiratorios y músculos del dorso.",
+  "fuentes": ["Latarjet M, Ruiz Liard A. Anatomía humana", "Moore KL, Dalley AF. Anatomía con orientación clínica"],
+  "secciones": [
+    {
+      "titulo": "Caja torácica",
+      "claves": ["Esternón", "Costillas", "Vértebras torácicas"],
+      "puntos": [
+        "Esternón: manubrio, cuerpo y proceso xifoides. El ángulo esternal (de Louis), entre el manubrio y el cuerpo, marca el nivel de la 2.ª costilla y del disco T4-T5; es un reparo clínico para contar costillas.",
+        "Costillas: 12 pares. Verdaderas (1.ª a 7.ª), que se unen directamente al esternón por su cartílago; falsas (8.ª a 10.ª), que se unen al cartílago de la costilla superior; y flotantes (11.ª y 12.ª), sin unión anterior.",
+        "Partes de una costilla típica: cabeza (con dos carillas), cuello, tubérculo, ángulo y cuerpo, con el surco costal en su borde inferior.",
+        "Vértebras torácicas: 12. Tienen fositas costales en el cuerpo y en los procesos transversos, y procesos espinosos largos inclinados hacia abajo."
+      ],
+      "clave": "El paquete vasculonervioso intercostal (vena, arteria y nervio, de arriba hacia abajo) corre por el surco costal. Por eso las punciones torácicas se hacen por el borde superior de la costilla inferior."
+    },
+    {
+      "titulo": "Columna vertebral",
+      "claves": ["Curvaturas", "Vértebra típica", "Disco intervertebral"],
+      "puntos": [
+        "33 vértebras: 7 cervicales, 12 torácicas, 5 lumbares, el sacro (5 fusionadas) y el cóccix (3 o 4 fusionadas).",
+        "Curvaturas del adulto: lordosis cervical y lumbar (cóncavas hacia atrás), y cifosis torácica y sacra (convexas hacia atrás).",
+        "Vértebra típica: cuerpo y arco vertebral (pedículos y láminas), que delimitan el foramen vertebral. Del arco salen un proceso espinoso, dos transversos y cuatro articulares. Entre los pedículos de vértebras vecinas queda el foramen intervertebral, por donde sale el nervio espinal.",
+        "Disco intervertebral: anillo fibroso de fibrocartílago con un núcleo pulposo gelatinoso en el centro. Los cuerpos vertebrales se unen por sínfisis, y los procesos articulares, por articulaciones cigapofisarias planas.",
+        "Ligamentos: longitudinal anterior y posterior, amarillos (entre láminas), interespinosos y supraespinoso."
+      ],
+      "clave": "La hernia discal suele ser posterolateral, donde el ligamento longitudinal posterior es más delgado, y comprime la raíz nerviosa del nivel inferior."
+    },
+    {
+      "titulo": "Músculos de la respiración",
+      "claves": ["Diafragma", "Intercostales", "Accesorios"],
+      "puntos": [
+        "Diafragma: principal músculo inspiratorio. Al contraerse desciende y aumenta el diámetro vertical del tórax. Lo inerva el nervio frénico (C3-C5).",
+        "Orificios del diafragma: vena cava inferior (T8), esófago (T10) y aorta (T12, por detrás del diafragma, en el hiato aórtico).",
+        "Intercostales externos: fibras hacia abajo y adelante («manos en los bolsillos»); elevan las costillas en la inspiración.",
+        "Intercostales internos e íntimos: fibras perpendiculares a los externos; ayudan en la espiración forzada. Los intercostales los inervan los nervios intercostales (T1-T11).",
+        "Accesorios de la inspiración: escalenos, esternocleidomastoideo y pectorales. Accesorios de la espiración forzada: músculos de la pared abdominal."
+      ],
+      "clave": "«C3, C4 y C5 mantienen vivo el diafragma»: una lesión medular sobre C3 produce parálisis respiratoria."
+    },
+    {
+      "titulo": "Músculos del dorso",
+      "claves": ["Trapecio", "Dorsal ancho", "Romboides", "Erector de la columna"],
+      "puntos": [
+        "Superficiales (extrínsecos, mueven el miembro superior): trapecio (eleva, retrae y rota la escápula; nervio accesorio, XI par), dorsal ancho (extiende, aduce y rota medialmente el brazo; nervio toracodorsal), romboides mayor y menor y elevador de la escápula (nervio dorsal de la escápula).",
+        "Intermedios (respiratorios): serratos posteriores superior e inferior.",
+        "Profundos o intrínsecos (inervados por los ramos posteriores de los nervios espinales): esplenios; erector de la columna, con tres columnas que de lateral a medial son iliocostal, longísimo y espinoso; y transversoespinosos (semiespinoso, multífidos y rotadores). Extienden y estabilizan la columna.",
+        "Serrato anterior (pared lateral del tórax; nervio torácico largo): protrae la escápula y la rota hacia arriba. Su parálisis produce escápula alada."
+      ],
+      "clave": "Erector de la columna, de lateral a medial: Iliocostal, Longísimo, Espinoso («I Love Spaghetti»)."
+    }
+  ],
+  "flashcards": [
+    { "frente": "Diafragma", "categoria": "Respiración", "reverso": { "Origen": "Proceso xifoides, 6 últimos cartílagos costales y vértebras lumbares (pilares).", "Inserción": "Centro tendinoso.", "Función": "Principal músculo inspiratorio.", "Inervación": "Nervio frénico (C3-C5)." } },
+    { "frente": "Intercostales externos", "categoria": "Respiración", "reverso": { "Disposición": "Fibras hacia abajo y adelante.", "Función": "Elevan las costillas en la inspiración.", "Inervación": "Nervios intercostales." } },
+    { "frente": "Ángulo esternal", "categoria": "Caja torácica", "reverso": { "Ubicación": "Unión entre el manubrio y el cuerpo del esternón.", "Importancia": "Nivel de la 2.ª costilla y del disco T4-T5; reparo para contar costillas." } },
+    { "frente": "Costillas falsas", "categoria": "Caja torácica", "reverso": { "Cuáles": "8.ª, 9.ª y 10.ª.", "Característica": "Su cartílago se une al de la costilla superior, no directamente al esternón." } },
+    { "frente": "Disco intervertebral", "categoria": "Columna", "reverso": { "Partes": "Anillo fibroso (fibrocartílago) y núcleo pulposo (gelatinoso).", "Función": "Amortigua cargas y permite movimiento entre cuerpos vertebrales." } },
+    { "frente": "Foramen intervertebral", "categoria": "Columna", "reverso": { "Formación": "Entre los pedículos de dos vértebras vecinas.", "Contenido": "Nervio espinal y vasos." } },
+    { "frente": "Trapecio", "categoria": "Dorso", "reverso": { "Origen": "Hueso occipital, ligamento nucal y procesos espinosos C7-T12.", "Inserción": "Tercio lateral de la clavícula, acromion y espina de la escápula.", "Función": "Eleva, retrae y rota hacia arriba la escápula.", "Inervación": "Nervio accesorio (XI)." } },
+    { "frente": "Dorsal ancho", "categoria": "Dorso", "reverso": { "Origen": "Procesos espinosos T7-L5, fascia toracolumbar y cresta ilíaca.", "Inserción": "Surco intertubercular del húmero.", "Función": "Extensión, aducción y rotación medial del brazo.", "Inervación": "Nervio toracodorsal." } },
+    { "frente": "Erector de la columna", "categoria": "Dorso", "reverso": { "Columnas": "Iliocostal (lateral), longísimo y espinoso (medial).", "Función": "Extensión y flexión lateral de la columna.", "Inervación": "Ramos posteriores de los nervios espinales." } },
+    { "frente": "Serrato anterior", "categoria": "Tórax", "reverso": { "Origen": "Caras externas de las costillas 1.ª a 8.ª.", "Inserción": "Borde medial de la escápula (cara anterior).", "Función": "Protrae la escápula y la rota hacia arriba.", "Inervación": "Nervio torácico largo (lesión: escápula alada)." } }
+  ],
+  "quiz": [
+    { "tipo": "multiple", "pregunta": "¿Qué nervio inerva el diafragma?", "opciones": ["Vago", "Frénico", "Intercostal", "Torácico largo"], "correcta": 1, "explicacion": "El nervio frénico, formado por ramos de C3 a C5, es la inervación motora del diafragma." },
+    { "tipo": "multiple", "pregunta": "¿A qué nivel vertebral atraviesa el esófago el diafragma?", "opciones": ["T8", "T10", "T12", "L1"], "correcta": 1, "explicacion": "Vena cava inferior en T8, esófago en T10 y aorta en T12: de anterior a posterior, los niveles aumentan de dos en dos." },
+    { "tipo": "multiple", "pregunta": "¿Qué costillas se consideran flotantes?", "opciones": ["1.ª y 2.ª", "8.ª a 10.ª", "11.ª y 12.ª", "Solo la 12.ª"], "correcta": 2, "explicacion": "La 11.ª y la 12.ª no tienen unión anterior con el esternón ni con otros cartílagos. La 8.ª a la 10.ª son falsas, pero no flotantes." },
+    { "tipo": "vf", "pregunta": "El ángulo esternal se ubica a nivel de la 2.ª costilla.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. El cartílago de la 2.ª costilla se une al esternón en el ángulo esternal, que sirve como punto de partida para contar costillas." },
+    { "tipo": "multiple", "pregunta": "¿Por dónde corre el paquete vasculonervioso intercostal?", "opciones": ["Por el borde superior de cada costilla", "Por el surco costal, en el borde inferior", "Por el centro del espacio intercostal", "Por la cara externa de la costilla"], "correcta": 1, "explicacion": "Vena, arteria y nervio intercostales corren por el surco costal, en el borde inferior. Por eso las agujas se introducen por el borde superior de la costilla de abajo." },
+    { "tipo": "multiple", "pregunta": "¿Qué curvatura de la columna es una cifosis en el adulto?", "opciones": ["Cervical", "Torácica", "Lumbar", "Ninguna"], "correcta": 1, "explicacion": "Las curvaturas torácica y sacra son cifosis (convexas hacia atrás). Las cervical y lumbar son lordosis." },
+    { "tipo": "multiple", "pregunta": "¿Qué nervio inerva el trapecio?", "opciones": ["Dorsal de la escápula", "Toracodorsal", "Accesorio (XI)", "Torácico largo"], "correcta": 2, "explicacion": "El trapecio y el esternocleidomastoideo los inerva el nervio accesorio, el XI par craneal." },
+    { "tipo": "multiple", "pregunta": "¿Qué produce la lesión del nervio torácico largo?", "opciones": ["Mano caída", "Escápula alada", "Pie caído", "Parálisis del diafragma"], "correcta": 1, "explicacion": "El nervio torácico largo inerva el serrato anterior, que mantiene la escápula contra el tórax. Sin él, el borde medial de la escápula se despega." },
+    { "tipo": "vf", "pregunta": "Los músculos profundos del dorso están inervados por los ramos posteriores de los nervios espinales.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. Los músculos intrínsecos (erector de la columna, transversoespinosos y esplenios) los inervan ramos posteriores. Los superficiales, que mueven el miembro superior, los inervan ramos anteriores o el XI par." },
+    { "tipo": "multiple", "pregunta": "¿Hacia dónde suele producirse una hernia de disco?", "opciones": ["Anterior", "Posterolateral", "Lateral pura", "Superior, hacia la vértebra"], "correcta": 1, "explicacion": "El núcleo pulposo sale con más frecuencia en dirección posterolateral, donde el ligamento longitudinal posterior es más débil, y comprime una raíz nerviosa." }
+  ],
+  "pareados": [
+    { "termino": "Diafragma", "definicion": "Principal músculo inspiratorio, inervado por el frénico." },
+    { "termino": "Intercostales externos", "definicion": "Elevan las costillas durante la inspiración." },
+    { "termino": "Ángulo esternal", "definicion": "Reparo a nivel de la 2.ª costilla." },
+    { "termino": "Núcleo pulposo", "definicion": "Centro gelatinoso del disco intervertebral." },
+    { "termino": "Trapecio", "definicion": "Músculo del dorso inervado por el nervio accesorio." },
+    { "termino": "Dorsal ancho", "definicion": "Extiende, aduce y rota medialmente el brazo." },
+    { "termino": "Erector de la columna", "definicion": "Iliocostal, longísimo y espinoso." },
+    { "termino": "Serrato anterior", "definicion": "Su parálisis produce escápula alada." }
+  ]
+}

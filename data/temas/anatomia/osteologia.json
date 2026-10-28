@@ -2,19 +2,54 @@
   "titulo": "Osteología",
   "intro": "Estudio de los huesos: su clasificación, su forma y los reparos anatómicos que permiten describirlos e identificarlos.",
   "fuentes": ["Latarjet M, Ruiz Liard A. Anatomía humana", "Moore KL, Dalley AF. Anatomía con orientación clínica"],
-  "pendiente": "Fase 2: se agregarán flashcards, quiz y pareados de Osteología, junto con la región Extremidad Inferior.",
   "secciones": [
     {
-      "titulo": "Clasificación ósea y reparos anatómicos",
-      "claves": ["Fémur", "Tibia", "Coxal"],
+      "titulo": "Esqueleto y clasificación ósea",
+      "claves": ["Axial", "Apendicular", "Largos", "Cortos", "Planos"],
       "texto": [
-        "Según su forma, los huesos se clasifican en largos (predomina la longitud, como el fémur o el húmero), cortos (dimensiones similares, como los del carpo y el tarso), planos (como la escápula o los parietales), irregulares (como las vértebras), sesamoideos (desarrollados dentro de un tendón, como la patela) y neumáticos (con cavidades aéreas, como el maxilar).",
-        "Un hueso largo tiene una diáfisis (cuerpo), dos epífisis (extremos) y metáfisis entre ambas, donde se ubica el cartílago de crecimiento durante el desarrollo."
+        "El esqueleto adulto tiene alrededor de 206 huesos. El esqueleto axial comprende el cráneo, el hioides, la columna vertebral, las costillas y el esternón. El esqueleto apendicular comprende las cinturas escapular y pélvica y los huesos de los miembros.",
+        "Según su forma, los huesos se clasifican en:"
       ],
       "puntos": [
-        "Fémur: cabeza, cuello, trocánteres mayor y menor, línea áspera, cóndilos medial y lateral, epicóndilos y cara patelar.",
-        "Tibia: cóndilos medial y lateral (meseta tibial), eminencia intercondílea, tuberosidad tibial, borde anterior y maléolo medial.",
-        "Coxal: formado por ilion, isquion y pubis, que se unen en el acetábulo. Reparos: cresta ilíaca, espina ilíaca anterosuperior (EIAS), tuberosidad isquiática y foramen obturado."
+        "Largos: predomina la longitud; tienen diáfisis y dos epífisis (fémur, húmero, falanges).",
+        "Cortos: dimensiones similares en los tres ejes; principalmente hueso esponjoso (carpo, tarso).",
+        "Planos: láminas delgadas que protegen órganos o dan inserción muscular (escápula, esternón, huesos de la bóveda craneal).",
+        "Irregulares: forma compleja (vértebras, coxal, esfenoides).",
+        "Sesamoideos: se desarrollan dentro de un tendón (patela, sesamoideos del hallux).",
+        "Neumáticos: con cavidades aéreas revestidas de mucosa (frontal, maxilar, esfenoides, etmoides)."
+      ]
+    },
+    {
+      "titulo": "Partes de un hueso largo",
+      "claves": ["Diáfisis", "Epífisis", "Metáfisis", "Periostio"],
+      "puntos": [
+        "Diáfisis: cuerpo tubular de hueso compacto que rodea la cavidad medular.",
+        "Epífisis: extremos ensanchados de hueso esponjoso, cubiertos por cartílago articular.",
+        "Metáfisis: zona de transición entre diáfisis y epífisis. Durante el crecimiento contiene el cartílago (disco) epifisario.",
+        "Periostio: membrana que recubre el hueso (salvo las superficies articulares) y le aporta vasos y nervios.",
+        "Agujero nutricio: orificio por donde entra la arteria nutricia hacia la cavidad medular."
+      ]
+    },
+    {
+      "titulo": "Reparos (accidentes) óseos",
+      "claves": ["Salientes", "Depresiones", "Orificios", "Superficies articulares"],
+      "texto": [
+        "Los reparos son los relieves y depresiones que se usan para describir e identificar los huesos. Muchos corresponden a inserciones musculares o al paso de vasos y nervios."
+      ],
+      "puntos": [
+        "Salientes no articulares: proceso o apófisis (prolongación), tubérculo (relieve pequeño y redondeado), tuberosidad (relieve grande y rugoso), trocánter (gran relieve, solo en el fémur), espina (saliente puntiaguda), cresta (borde elevado), línea (relieve lineal bajo).",
+        "Superficies articulares: cabeza (extremo redondeado), cóndilo (relieve articular redondeado), carilla (superficie lisa y plana), tróclea (superficie en forma de polea). El epicóndilo es una saliente situada sobre un cóndilo, no articular.",
+        "Depresiones y orificios: fosa (depresión), fosita, surco (canal), incisura o escotadura, foramen o agujero (orificio), conducto o canal (orificio largo), meato."
+      ],
+      "clave": "Cuanto más fuerte es el músculo que se inserta, más marcado es el relieve. Por ejemplo, la línea áspera del fémur recibe la inserción de los aductores."
+    },
+    {
+      "titulo": "Reparos del fémur, la tibia y el coxal",
+      "claves": ["Fémur", "Tibia", "Coxal"],
+      "puntos": [
+        "Fémur: cabeza (con la fosita del ligamento de la cabeza), cuello, trocánteres mayor y menor, línea y cresta intertrocantéreas, línea áspera (cara posterior del cuerpo), cóndilos medial y lateral, epicóndilos, tubérculo del aductor, cara patelar y fosa intercondílea.",
+        "Tibia: cóndilos medial y lateral (meseta tibial), eminencia intercondílea, tuberosidad tibial (inserción del ligamento patelar), borde anterior subcutáneo, maléolo medial e incisura fibular.",
+        "Coxal: formado por ilion, isquion y pubis, fusionados en el acetábulo. Reparos: cresta ilíaca, espinas ilíacas anterosuperior (EIAS) y anteroinferior (EIAI), espina y tuberosidad isquiáticas, escotaduras isquiáticas mayor y menor, foramen obturado y sínfisis del pubis."
       ]
     }
   ],
@@ -31,5 +66,39 @@
       { "n": 7, "x": 34.5, "y": 88.3, "respuestas": ["Cóndilo lateral", "Cóndilo externo"] },
       { "n": 8, "x": 50, "y": 82.1, "respuestas": ["Cara patelar", "Superficie patelar", "Tróclea femoral", "Tróclea"] }
     ]
-  }
+  },
+  "flashcards": [
+    { "frente": "Hueso sesamoideo", "categoria": "Clasificación", "reverso": { "Definición": "Hueso que se desarrolla dentro de un tendón.", "Ejemplo": "Patela (en el tendón del cuádriceps femoral)." } },
+    { "frente": "Hueso neumático", "categoria": "Clasificación", "reverso": { "Definición": "Hueso con cavidades aéreas (senos) revestidas de mucosa.", "Ejemplos": "Frontal, maxilar, esfenoides y etmoides." } },
+    { "frente": "Metáfisis", "categoria": "Hueso largo", "reverso": { "Ubicación": "Entre la diáfisis y la epífisis.", "Importancia": "Contiene el cartílago de crecimiento hasta la adultez." } },
+    { "frente": "Tuberosidad", "categoria": "Reparos", "reverso": { "Definición": "Relieve grande y rugoso, no articular.", "Ejemplos": "Tuberosidad tibial, tuberosidad isquiática, tuberosidad del radio." } },
+    { "frente": "Cóndilo vs. epicóndilo", "categoria": "Reparos", "reverso": { "Cóndilo": "Relieve redondeado y articular.", "Epicóndilo": "Saliente no articular situada sobre el cóndilo; sirve de inserción." } },
+    { "frente": "Trocánter", "categoria": "Reparos", "reverso": { "Definición": "Gran relieve rugoso, exclusivo del fémur.", "Inserciones": "Trocánter mayor: glúteos medio y menor y rotadores laterales. Trocánter menor: iliopsoas." } },
+    { "frente": "Línea áspera", "categoria": "Fémur", "reverso": { "Ubicación": "Cara posterior del cuerpo del fémur.", "Función": "Inserción de los aductores y origen de los vastos medial y lateral y de la cabeza corta del bíceps femoral." } },
+    { "frente": "Acetábulo", "categoria": "Coxal", "reverso": { "Definición": "Cavidad articular del coxal para la cabeza del fémur.", "Formación": "Unión de ilion, isquion y pubis." } },
+    { "frente": "Espina ilíaca anterosuperior (EIAS)", "categoria": "Coxal", "reverso": { "Ubicación": "Extremo anterior de la cresta ilíaca; palpable.", "Inserciones": "Origen del sartorio y del tensor de la fascia lata; fijación del ligamento inguinal." } },
+    { "frente": "Tuberosidad tibial", "categoria": "Tibia", "reverso": { "Ubicación": "Cara anterior de la tibia proximal.", "Inserción": "Ligamento patelar (continuación del tendón del cuádriceps)." } }
+  ],
+  "quiz": [
+    { "tipo": "multiple", "pregunta": "¿Cómo se clasifica la patela según su forma?", "opciones": ["Hueso largo", "Hueso plano", "Hueso sesamoideo", "Hueso irregular"], "correcta": 2, "explicacion": "La patela es el sesamoideo más grande del cuerpo: se desarrolla dentro del tendón del cuádriceps femoral." },
+    { "tipo": "multiple", "pregunta": "¿Qué hueso es neumático?", "opciones": ["Fémur", "Maxilar", "Escápula", "Calcáneo"], "correcta": 1, "explicacion": "El maxilar contiene el seno maxilar, una cavidad aérea revestida de mucosa. También son neumáticos el frontal, el esfenoides y el etmoides." },
+    { "tipo": "vf", "pregunta": "Las vértebras se clasifican como huesos irregulares.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. Su forma compleja, con cuerpo, arco y varios procesos, no encaja en las categorías de largo, corto o plano." },
+    { "tipo": "multiple", "pregunta": "¿En qué parte del hueso largo se ubica el cartílago de crecimiento?", "opciones": ["Diáfisis", "Metáfisis", "Cavidad medular", "Cartílago articular"], "correcta": 1, "explicacion": "El cartílago (disco) epifisario se ubica en la metáfisis, entre la diáfisis y la epífisis, y permite el crecimiento en longitud hasta que se osifica." },
+    { "tipo": "multiple", "pregunta": "¿Cuál de estos reparos es una superficie articular?", "opciones": ["Epicóndilo", "Tuberosidad", "Cóndilo", "Cresta"], "correcta": 2, "explicacion": "El cóndilo es un relieve redondeado que se articula con otro hueso. El epicóndilo, la tuberosidad y la cresta son reparos no articulares." },
+    { "tipo": "multiple", "pregunta": "¿Qué músculo se inserta en el trocánter menor del fémur?", "opciones": ["Glúteo medio", "Iliopsoas", "Cuádriceps femoral", "Aductor mayor"], "correcta": 1, "explicacion": "El iliopsoas, principal flexor de la cadera, se inserta en el trocánter menor. Los glúteos medio y menor se insertan en el trocánter mayor." },
+    { "tipo": "vf", "pregunta": "El acetábulo está formado por la unión del ilion, el isquion y el pubis.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. Los tres huesos que forman el coxal se fusionan en el acetábulo, la cavidad que recibe la cabeza del fémur." },
+    { "tipo": "multiple", "pregunta": "¿Dónde se inserta el ligamento patelar?", "opciones": ["Maléolo medial", "Tuberosidad tibial", "Eminencia intercondílea", "Cabeza de la fíbula"], "correcta": 1, "explicacion": "El ligamento patelar va de la patela a la tuberosidad tibial y transmite la fuerza del cuádriceps para extender la rodilla." },
+    { "tipo": "multiple", "pregunta": "¿En qué cara del fémur se encuentra la línea áspera?", "opciones": ["Anterior", "Posterior", "Medial", "Lateral"], "correcta": 1, "explicacion": "La línea áspera recorre la cara posterior del cuerpo del fémur y recibe la inserción de los aductores." },
+    { "tipo": "vf", "pregunta": "Un foramen es un relieve óseo puntiagudo.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. Un foramen es un orificio que atraviesa el hueso, por donde pasan vasos o nervios. El relieve puntiagudo se llama espina." }
+  ],
+  "pareados": [
+    { "termino": "Diáfisis", "definicion": "Cuerpo tubular de un hueso largo." },
+    { "termino": "Epífisis", "definicion": "Extremo de un hueso largo cubierto por cartílago articular." },
+    { "termino": "Tuberosidad", "definicion": "Relieve grande y rugoso donde se insertan músculos." },
+    { "termino": "Foramen", "definicion": "Orificio que atraviesa un hueso." },
+    { "termino": "Fosa", "definicion": "Depresión de la superficie ósea." },
+    { "termino": "Cóndilo", "definicion": "Relieve redondeado y articular." },
+    { "termino": "Sesamoideo", "definicion": "Hueso que se desarrolla dentro de un tendón." },
+    { "termino": "Acetábulo", "definicion": "Cavidad del coxal que recibe la cabeza del fémur." }
+  ]
 }

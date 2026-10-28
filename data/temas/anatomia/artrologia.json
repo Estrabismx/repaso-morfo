@@ -2,16 +2,87 @@
   "titulo": "Artrología",
   "intro": "Estudio de las articulaciones: cómo se unen los huesos y qué movimientos permiten.",
   "fuentes": ["Latarjet M, Ruiz Liard A. Anatomía humana", "Moore KL, Dalley AF. Anatomía con orientación clínica"],
-  "pendiente": "Fase 2: se agregarán la clasificación completa de las articulaciones, flashcards, quiz y pareados.",
   "secciones": [
     {
-      "titulo": "Articulaciones principales",
+      "titulo": "Clasificación de las articulaciones",
+      "claves": ["Fibrosas", "Cartilaginosas", "Sinoviales"],
+      "texto": [
+        "Según su movilidad, las articulaciones se dividen en sinartrosis (inmóviles), anfiartrosis (poco móviles) y diartrosis (móviles). Según el tejido que une los huesos, se clasifican en:"
+      ],
+      "puntos": [
+        "Fibrosas: unidas por tejido conectivo denso. Suturas del cráneo; sindesmosis (unión por ligamento o membrana interósea, como la tibiofibular distal); gonfosis (diente en su alvéolo).",
+        "Cartilaginosas primarias (sincondrosis): unidas por cartílago hialino, generalmente temporales, como el cartílago epifisario o la unión de la 1.ª costilla con el esternón.",
+        "Cartilaginosas secundarias (sínfisis): unidas por fibrocartílago y poco móviles, como la sínfisis del pubis y las uniones entre cuerpos vertebrales (discos intervertebrales).",
+        "Sinoviales: con cavidad articular y gran movilidad. Son las más numerosas en los miembros."
+      ]
+    },
+    {
+      "titulo": "Articulación sinovial",
+      "claves": ["Cápsula", "Membrana sinovial", "Cartílago articular", "Ligamentos"],
+      "puntos": [
+        "Superficies articulares cubiertas por cartílago hialino (sin pericondrio).",
+        "Cápsula articular: capa fibrosa externa y membrana sinovial interna, que produce el líquido sinovial (lubrica y nutre el cartílago).",
+        "Cavidad articular: espacio virtual con líquido sinovial.",
+        "Ligamentos: refuerzan la cápsula (capsulares) o están separados de ella (extracapsulares o intracapsulares).",
+        "Estructuras accesorias: discos y meniscos de fibrocartílago (mejoran la congruencia), labrum o rodete (profundiza la cavidad) y bolsas sinoviales (reducen la fricción)."
+      ]
+    },
+    {
+      "titulo": "Tipos de articulaciones sinoviales",
+      "claves": ["Plana", "Gínglimo", "Trocoide", "Condílea", "Selar", "Esferoidea"],
+      "puntos": [
+        "Plana: deslizamiento (acromioclavicular, intercarpianas, cigapofisarias).",
+        "Gínglimo o bisagra: 1 eje, flexión-extensión (humeroulnar, interfalángicas, talocrural).",
+        "Trocoide o pivote: 1 eje, rotación (atlantoaxial media, radioulnar proximal).",
+        "Condílea o elipsoidea: 2 ejes, flexión-extensión y abducción-aducción (radiocarpiana, metacarpofalángicas).",
+        "Selar o en silla de montar: 2 ejes, con circunducción (carpometacarpiana del pulgar, esternoclavicular).",
+        "Esferoidea o enartrosis: 3 ejes, la de mayor movilidad (glenohumeral, coxofemoral).",
+        "Bicondílea: dos cóndilos que se articulan con superficies casi planas (femorotibial, temporomandibular)."
+      ],
+      "clave": "A mayor movilidad, menor estabilidad. La glenohumeral es la articulación más móvil y también la que más se luxa."
+    },
+    {
+      "titulo": "Articulaciones principales del miembro inferior",
       "claves": ["Coxofemoral", "Femorotibial", "Femoropatelar"],
       "puntos": [
-        "Coxofemoral: articulación sinovial esferoidea entre la cabeza del fémur y el acetábulo del coxal, profundizado por el labrum acetabular. Está reforzada por los ligamentos iliofemoral, pubofemoral e isquiofemoral. Permite flexión-extensión, abducción-aducción y rotaciones.",
-        "Femorotibial: articulación sinovial bicondílea entre los cóndilos del fémur y la meseta tibial. Tiene meniscos medial y lateral (fibrocartílago) que mejoran la congruencia, y la estabilizan los ligamentos cruzados anterior y posterior y los colaterales tibial y peroneo.",
-        "Femoropatelar: entre la cara posterior de la patela y la cara patelar del fémur. Junto con la femorotibial forma la articulación de la rodilla, con una cápsula sinovial común."
+        "Coxofemoral: articulación sinovial esferoidea entre la cabeza del fémur y el acetábulo, profundizado por el labrum acetabular. La refuerzan los ligamentos iliofemoral (en Y, el más fuerte del cuerpo), pubofemoral e isquiofemoral. El ligamento de la cabeza del fémur lleva una pequeña arteria. Permite flexión-extensión, abducción-aducción, rotaciones y circunducción.",
+        "Femorotibial: sinovial bicondílea entre los cóndilos del fémur y la meseta tibial. Los meniscos medial (en C, unido al ligamento colateral tibial) y lateral (más circular y móvil) mejoran la congruencia. La estabilizan los ligamentos cruzados anterior (impide el desplazamiento anterior de la tibia) y posterior, y los colaterales tibial y fibular.",
+        "Femoropatelar: entre la cara posterior de la patela y la cara patelar del fémur. Junto con la femorotibial forma la articulación de la rodilla, con una cavidad sinovial común."
       ]
     }
+  ],
+  "flashcards": [
+    { "frente": "Sindesmosis", "categoria": "Fibrosas", "reverso": { "Definición": "Articulación fibrosa unida por un ligamento o membrana interósea.", "Ejemplo": "Tibiofibular distal; membrana interósea del antebrazo." } },
+    { "frente": "Gonfosis", "categoria": "Fibrosas", "reverso": { "Definición": "Articulación fibrosa entre el diente y su alvéolo.", "Medio de unión": "Ligamento periodontal." } },
+    { "frente": "Sincondrosis", "categoria": "Cartilaginosas", "reverso": { "Definición": "Cartilaginosa primaria: unión por cartílago hialino, generalmente temporal.", "Ejemplo": "Cartílago epifisario; 1.ª articulación esternocostal." } },
+    { "frente": "Sínfisis", "categoria": "Cartilaginosas", "reverso": { "Definición": "Cartilaginosa secundaria: unión por fibrocartílago, poco móvil.", "Ejemplos": "Sínfisis del pubis; discos intervertebrales." } },
+    { "frente": "Membrana sinovial", "categoria": "Sinoviales", "reverso": { "Ubicación": "Capa interna de la cápsula articular; no cubre el cartílago.", "Función": "Produce el líquido sinovial, que lubrica y nutre el cartílago articular." } },
+    { "frente": "Articulación esferoidea", "categoria": "Sinoviales", "reverso": { "Ejes": "Tres (multiaxial).", "Ejemplos": "Glenohumeral y coxofemoral." } },
+    { "frente": "Articulación selar", "categoria": "Sinoviales", "reverso": { "Ejes": "Dos, con superficies cóncavo-convexas recíprocas.", "Ejemplo": "Carpometacarpiana del pulgar (permite la oposición)." } },
+    { "frente": "Articulación trocoide", "categoria": "Sinoviales", "reverso": { "Ejes": "Uno: rotación.", "Ejemplos": "Atlantoaxial media; radioulnar proximal." } },
+    { "frente": "Ligamento cruzado anterior", "categoria": "Rodilla", "reverso": { "Trayecto": "Del área intercondílea anterior de la tibia a la cara medial del cóndilo lateral del fémur.", "Función": "Impide el desplazamiento anterior de la tibia sobre el fémur (cajón anterior)." } },
+    { "frente": "Ligamento iliofemoral", "categoria": "Cadera", "reverso": { "Forma": "En Y invertida (de Bigelow).", "Función": "El ligamento más fuerte del cuerpo; limita la hiperextensión de la cadera." } }
+  ],
+  "quiz": [
+    { "tipo": "multiple", "pregunta": "¿Qué tipo de articulación es la sínfisis del pubis?", "opciones": ["Fibrosa", "Cartilaginosa secundaria", "Cartilaginosa primaria", "Sinovial plana"], "correcta": 1, "explicacion": "La sínfisis del pubis es una articulación cartilaginosa secundaria: los huesos se unen mediante un disco de fibrocartílago." },
+    { "tipo": "multiple", "pregunta": "¿Qué articulación es de tipo selar?", "opciones": ["Glenohumeral", "Carpometacarpiana del pulgar", "Humeroulnar", "Atlantoaxial media"], "correcta": 1, "explicacion": "La carpometacarpiana del pulgar tiene superficies recíprocas en forma de silla de montar, lo que permite la oposición del pulgar." },
+    { "tipo": "vf", "pregunta": "La membrana sinovial recubre el cartílago articular.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. La membrana sinovial tapiza el interior de la cápsula, pero no cubre las superficies articulares, que quedan revestidas por cartílago hialino." },
+    { "tipo": "multiple", "pregunta": "¿Cuántos ejes de movimiento tiene una articulación esferoidea?", "opciones": ["Uno", "Dos", "Tres", "Ninguno"], "correcta": 2, "explicacion": "Las esferoideas (como la coxofemoral) permiten movimiento en tres ejes: flexión-extensión, abducción-aducción y rotaciones." },
+    { "tipo": "multiple", "pregunta": "¿Qué tipo de articulación es la unión entre el diente y su alvéolo?", "opciones": ["Sutura", "Gonfosis", "Sindesmosis", "Sincondrosis"], "correcta": 1, "explicacion": "La gonfosis es una articulación fibrosa entre la raíz del diente y el alvéolo, unidos por el ligamento periodontal." },
+    { "tipo": "multiple", "pregunta": "¿Qué ligamento impide el desplazamiento anterior de la tibia sobre el fémur?", "opciones": ["Cruzado posterior", "Colateral tibial", "Cruzado anterior", "Patelar"], "correcta": 2, "explicacion": "El ligamento cruzado anterior impide que la tibia se desplace hacia adelante. Su rotura se detecta con la prueba del cajón anterior o la de Lachman." },
+    { "tipo": "vf", "pregunta": "El menisco medial está unido al ligamento colateral tibial.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. Por esa unión el menisco medial es menos móvil y se lesiona con más frecuencia que el lateral, a menudo junto con el colateral tibial y el LCA." },
+    { "tipo": "multiple", "pregunta": "¿Qué tipo de articulación es la humeroulnar?", "opciones": ["Gínglimo (bisagra)", "Trocoide", "Condílea", "Plana"], "correcta": 0, "explicacion": "La humeroulnar es un gínglimo: la tróclea del húmero y la incisura troclear de la ulna permiten solo flexión y extensión." },
+    { "tipo": "multiple", "pregunta": "¿Cuál es el ligamento más fuerte de la articulación coxofemoral?", "opciones": ["Pubofemoral", "Isquiofemoral", "Iliofemoral", "Ligamento de la cabeza del fémur"], "correcta": 2, "explicacion": "El ligamento iliofemoral, en forma de Y invertida, es el más fuerte del cuerpo y limita la hiperextensión de la cadera al estar de pie." },
+    { "tipo": "vf", "pregunta": "Las articulaciones con mayor movilidad suelen ser también las más estables.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. Movilidad y estabilidad se oponen: la glenohumeral es la más móvil y también la que más se luxa." }
+  ],
+  "pareados": [
+    { "termino": "Sutura", "definicion": "Articulación fibrosa entre huesos del cráneo." },
+    { "termino": "Sindesmosis", "definicion": "Unión fibrosa mediante ligamento o membrana interósea." },
+    { "termino": "Sínfisis", "definicion": "Unión por fibrocartílago, como entre los cuerpos vertebrales." },
+    { "termino": "Gínglimo", "definicion": "Articulación sinovial en bisagra con un eje de movimiento." },
+    { "termino": "Trocoide", "definicion": "Articulación sinovial que permite rotación sobre un eje." },
+    { "termino": "Esferoidea", "definicion": "Articulación sinovial con tres ejes de movimiento." },
+    { "termino": "Menisco", "definicion": "Fibrocartílago que mejora la congruencia de la rodilla." },
+    { "termino": "Labrum", "definicion": "Rodete fibrocartilaginoso que profundiza una cavidad articular." }
   ]
 }

@@ -1,6 +1,6 @@
 // Páginas generales: inicio, módulo, actividades, región sin contenido y créditos.
 import { h } from '../ui.js'
-import { cargarTema, cargarImagenes } from '../datos.js'
+import { cargarTema, cargarRegion, cargarImagenes } from '../datos.js'
 import { progreso } from '../progreso.js'
 import { PESTANAS, credito } from './unidad.js'
 
@@ -9,24 +9,31 @@ const ICONOS_MODULO = { histologia: '🔬', anatomia: '🦴' }
 export const claveTema = (t) => `t:${t.modulo}/${t.slug}`
 export const claveRegion = (r) => `r:${r.slug}`
 
-function estadoTema(t) {
+/** Temas y regiones como unidades de estudio con la misma forma. */
+function unidades(estructura) {
+  return estructura.modulos.flatMap((m) => [
+    ...m.temas.map((t) => ({ nombre: t.nombre, href: `#/t/${t.modulo}/${t.slug}`, clave: claveTema(t), cargar: () => cargarTema(t.modulo, t.slug) })),
+    ...m.regiones.map((r) => ({ nombre: r.nombre, href: `#/r/${r.slug}`, clave: claveRegion(r), cargar: () => cargarRegion(r.slug), region: true })),
+  ])
+}
+
+function estadoUnidad(k) {
   const p = progreso.obtener()
-  const k = claveTema(t)
   const partes = []
   if (p.leidos[k]) partes.push('✓ Leído')
   if (p.quiz[k]) partes.push(`Quiz ${p.quiz[k].mejor}/${p.quiz[k].total}`)
   return partes.join(' · ')
 }
 
-function enlaceTema(t, icono = '📘') {
+function enlaceUnidad(nombre, href, clave, icono = '📘') {
   return h(
     'li',
     {},
     h(
       'a',
-      { class: 'enlace-tarjeta', href: `#/t/${t.modulo}/${t.slug}` },
+      { class: 'enlace-tarjeta', href },
       h('span', { class: 'ico', 'aria-hidden': 'true' }, icono),
-      h('span', { class: 'texto' }, t.nombre, h('small', {}, estadoTema(t) || 'Sin empezar')),
+      h('span', { class: 'texto' }, nombre, h('small', {}, estadoUnidad(clave) || 'Sin empezar')),
       h('span', { class: 'flecha', 'aria-hidden': 'true' }, '›'),
     ),
   )
@@ -34,8 +41,8 @@ function enlaceTema(t, icono = '📘') {
 
 export function vistaInicio(estructura) {
   const p = progreso.obtener()
-  const temas = estructura.modulos.flatMap((m) => m.temas)
-  const leidos = temas.filter((t) => p.leidos[claveTema(t)]).length
+  const todas = unidades(estructura)
+  const leidos = todas.filter((u) => p.leidos[u.clave]).length
   const quizzes = Object.keys(p.quiz).length
   const tarjetas = Object.values(p.tarjetas).reduce((s, a) => s + a.length, 0)
 
@@ -50,13 +57,14 @@ export function vistaInicio(estructura) {
     h(
       'div',
       { class: 'resumen-progreso', 'aria-label': 'Tu progreso' },
-      h('div', {}, h('strong', {}, `${leidos}/${temas.length}`), h('span', {}, 'temas leídos')),
+      h('div', {}, h('strong', {}, `${leidos}/${todas.length}`), h('span', {}, 'unidades leídas')),
       h('div', {}, h('strong', {}, String(quizzes)), h('span', {}, 'quizzes hechos')),
       h('div', {}, h('strong', {}, String(tarjetas)), h('span', {}, 'tarjetas sabidas')),
     ),
     estructura.modulos.map((m) => [
       h('h2', { class: 'seccion-titulo' }, m.nombre),
-      h('ul', { class: 'lista-enlaces dos-columnas' }, m.temas.map((t) => enlaceTema(t, ICONOS_MODULO[m.slug]))),
+      h('ul', { class: 'lista-enlaces dos-columnas' }, m.temas.map((t) => enlaceUnidad(t.nombre, `#/t/${m.slug}/${t.slug}`, claveTema(t), ICONOS_MODULO[m.slug]))),
+      m.regiones.length > 0 && h('p', {}, h('a', { href: `#/m/${m.slug}` }, `Ver las ${m.regiones.length} regiones →`)),
     ]),
     h('h2', { class: 'seccion-titulo' }, 'Actividades'),
     h(
@@ -81,33 +89,21 @@ export function vistaModulo(modulo) {
   return [
     h('header', { class: 'cabecera-pagina' }, h('p', { class: 'antetitulo' }, 'Módulo'), h('h1', {}, modulo.nombre)),
     h('h2', { class: 'seccion-titulo', style: { marginTop: 0 } }, 'Temas'),
-    h('ul', { class: 'lista-enlaces' }, modulo.temas.map((t) => enlaceTema(t, ICONOS_MODULO[modulo.slug]))),
+    h('ul', { class: 'lista-enlaces' }, modulo.temas.map((t) => enlaceUnidad(t.nombre, `#/t/${modulo.slug}/${t.slug}`, claveTema(t), ICONOS_MODULO[modulo.slug]))),
     modulo.regiones.length > 0 && [
       h('h2', { class: 'seccion-titulo' }, 'Regiones'),
       h(
         'ul',
         { class: 'lista-enlaces dos-columnas' },
-        modulo.regiones.map((r) =>
-          h(
-            'li',
-            {},
-            h(
-              'a',
-              { class: 'enlace-tarjeta', href: `#/r/${r.slug}` },
-              h('span', { class: 'ico', 'aria-hidden': 'true' }, '📍'),
-              h('span', { class: 'texto' }, r.nombre),
-              h('span', { class: 'flecha', 'aria-hidden': 'true' }, '›'),
-            ),
-          ),
-        ),
+        modulo.regiones.map((r) => enlaceUnidad(r.nombre, `#/r/${r.slug}`, claveRegion(r), '📍')),
       ),
     ],
   ]
 }
 
 export async function vistaActividades(estructura) {
-  const temas = estructura.modulos.flatMap((m) => m.temas)
-  const datos = await Promise.all(temas.map((t) => cargarTema(t.modulo, t.slug)))
+  const todas = unidades(estructura)
+  const datos = await Promise.all(todas.map((u) => u.cargar()))
   const descripciones = {
     visor: estructura.actividades.find((a) => a.tipo.startsWith('Visor'))?.descripcion,
     tarjetas: estructura.actividades.find((a) => a.tipo.includes('Flashcards'))?.descripcion,
@@ -117,9 +113,9 @@ export async function vistaActividades(estructura) {
   }
 
   return [
-    h('header', { class: 'cabecera-pagina' }, h('h1', {}, 'Actividades'), h('p', {}, 'Elige un tipo de actividad y luego el tema.')),
+    h('header', { class: 'cabecera-pagina' }, h('h1', {}, 'Actividades'), h('p', {}, 'Elige un tipo de actividad y luego el tema o la región.')),
     PESTANAS.filter((p) => p.id !== 'leer').map((tipo) => {
-      const conActividad = temas.filter((t, i) => datos[i] && tipo.hay(datos[i]))
+      const conActividad = todas.filter((u, i) => datos[i] && tipo.hay(datos[i]))
       return [
         h('h2', { class: 'seccion-titulo' }, h('span', { 'aria-hidden': 'true' }, `${tipo.ico} `), tipo.nombre),
         descripciones[tipo.id] && h('p', { style: { margin: '-6px 0 12px', color: 'var(--texto-tenue)', fontSize: '.92rem' } }, descripciones[tipo.id]),
@@ -127,14 +123,14 @@ export async function vistaActividades(estructura) {
           ? h(
               'ul',
               { class: 'lista-enlaces dos-columnas' },
-              conActividad.map((t) =>
+              conActividad.map((u) =>
                 h(
                   'li',
                   {},
                   h(
                     'a',
-                    { class: 'enlace-tarjeta', href: `#/t/${t.modulo}/${t.slug}/${tipo.id}` },
-                    h('span', { class: 'texto' }, t.nombre),
+                    { class: 'enlace-tarjeta', href: `${u.href}/${tipo.id}` },
+                    h('span', { class: 'texto' }, u.nombre, u.region && h('small', {}, 'Región')),
                     h('span', { class: 'flecha', 'aria-hidden': 'true' }, '›'),
                   ),
                 ),

@@ -1,0 +1,104 @@
+{
+  "titulo": "Extremidad Superior",
+  "intro": "Cintura escapular, brazo, antebrazo y mano: huesos, articulaciones, músculos por compartimento y nervios del plexo braquial.",
+  "fuentes": ["Latarjet M, Ruiz Liard A. Anatomía humana", "Moore KL, Dalley AF. Anatomía con orientación clínica"],
+  "secciones": [
+    {
+      "titulo": "Huesos",
+      "claves": ["Clavícula", "Escápula", "Húmero", "Radio", "Ulna", "Carpo"],
+      "puntos": [
+        "Clavícula: une el miembro superior al esqueleto axial. Es el hueso que más se fractura, sobre todo en su tercio medio.",
+        "Escápula: acromion, proceso coracoides, cavidad glenoidea, espina, fosas supraespinosa, infraespinosa y subescapular, y tubérculos supra e infraglenoideo.",
+        "Húmero: cabeza, cuello anatómico, cuello quirúrgico (sitio frecuente de fractura), tubérculos mayor y menor, surco intertubercular, tuberosidad deltoidea, surco del nervio radial, epicóndilos, tróclea y capítulo.",
+        "Ulna (cúbito): hueso medial del antebrazo; olécranon, proceso coronoides e incisura troclear.",
+        "Radio: hueso lateral; cabeza (proximal), tuberosidad radial y proceso estiloides (distal).",
+        "Mano: 8 huesos del carpo (fila proximal: escafoides, semilunar, piramidal y pisiforme; fila distal: trapecio, trapezoide, grande y ganchoso), 5 metacarpianos y 14 falanges."
+      ],
+      "clave": "El escafoides es el carpiano que más se fractura (caída sobre la mano extendida). Su irrigación entra por distal, así que el fragmento proximal puede necrosarse."
+    },
+    {
+      "titulo": "Articulaciones",
+      "claves": ["Glenohumeral", "Codo", "Radioulnar", "Radiocarpiana"],
+      "puntos": [
+        "Esternoclavicular: selar, con disco articular; es la única unión ósea entre el miembro superior y el tronco.",
+        "Acromioclavicular: plana.",
+        "Glenohumeral: esferoidea, la más móvil del cuerpo. La cavidad glenoidea es pequeña y poco profunda (la amplía el labrum), así que la estabilidad depende del manguito rotador. Es la articulación que más se luxa, generalmente hacia anteroinferior.",
+        "Codo: humeroulnar (gínglimo) y humerorradial, en una misma cápsula con la radioulnar proximal.",
+        "Radioulnares proximal y distal: trocoides; permiten la pronación y la supinación. El ligamento anular rodea la cabeza del radio.",
+        "Radiocarpiana (muñeca): condílea o elipsoidea. Carpometacarpiana del pulgar: selar (oposición)."
+      ]
+    },
+    {
+      "titulo": "Músculos del hombro y el brazo",
+      "claves": ["Manguito rotador", "Deltoides", "Bíceps", "Tríceps"],
+      "puntos": [
+        "Manguito rotador: supraespinoso (inicia la abducción; nervio supraescapular), infraespinoso (rotación lateral; nervio supraescapular), redondo menor (rotación lateral; nervio axilar) y subescapular (rotación medial; nervios subescapulares). Sus tendones estabilizan la cabeza humeral en la cavidad glenoidea.",
+        "Deltoides (nervio axilar): principal abductor del brazo, de unos 15° a 90°. Sus fibras anteriores flexionan y las posteriores extienden.",
+        "Pectoral mayor (nervios pectorales): aducción, rotación medial y flexión del brazo. Dorsal ancho (nervio toracodorsal): extensión, aducción y rotación medial.",
+        "Compartimento anterior del brazo (nervio musculocutáneo): bíceps braquial (flexión del codo y supinación potente), braquial (principal flexor del codo) y coracobraquial.",
+        "Compartimento posterior del brazo (nervio radial): tríceps braquial; sus cabezas larga, lateral y medial se insertan en el olécranon y extienden el codo."
+      ],
+      "clave": "El supraespinoso es el tendón del manguito que más se lesiona, porque pasa bajo el arco coracoacromial (síndrome de pinzamiento subacromial)."
+    },
+    {
+      "titulo": "Músculos del antebrazo y la mano",
+      "claves": ["Flexores", "Extensores", "Tenares", "Interóseos"],
+      "puntos": [
+        "Compartimento anterior del antebrazo (flexores y pronadores): la mayoría nace del epicóndilo medial. Los inerva el nervio mediano, excepto el flexor ulnar del carpo y la mitad medial del flexor profundo de los dedos, que inerva el nervio ulnar.",
+        "Compartimento posterior (extensores y supinador): la mayoría nace del epicóndilo lateral. Todos los inerva el nervio radial. El braquiorradial, también inervado por el radial, flexiona el codo con el antebrazo en posición neutra.",
+        "Eminencia tenar (nervio mediano): abductor corto, flexor corto y oponente del pulgar. El aductor del pulgar lo inerva el nervio ulnar.",
+        "Eminencia hipotenar (nervio ulnar): abductor, flexor corto y oponente del meñique.",
+        "Interóseos (nervio ulnar): los palmares aducen los dedos y los dorsales los abducen. Lumbricales: el 1.° y el 2.° los inerva el mediano, y el 3.° y el 4.°, el ulnar; flexionan las metacarpofalángicas y extienden las interfalángicas."
+      ]
+    },
+    {
+      "titulo": "Plexo braquial y nervios terminales",
+      "claves": ["C5-T1", "Musculocutáneo", "Axilar", "Radial", "Mediano", "Ulnar"],
+      "puntos": [
+        "Plexo braquial: ramos anteriores de C5 a T1, organizados en raíces, troncos, divisiones, fascículos y ramos terminales.",
+        "Nervio axilar: rodea el cuello quirúrgico del húmero. Inerva el deltoides y el redondo menor; se lesiona en fracturas del cuello quirúrgico y en luxaciones del hombro.",
+        "Nervio radial: recorre el surco del nervio radial del húmero. Su lesión en fracturas del cuerpo humeral produce mano caída (pérdida de la extensión de muñeca y dedos).",
+        "Nervio mediano: pasa por el túnel carpiano. Su compresión (síndrome del túnel carpiano) produce parestesias en los dedos 1 a 3 y debilidad de la eminencia tenar.",
+        "Nervio ulnar: pasa por detrás del epicóndilo medial (el «hueso de la risa»). Su lesión produce mano en garra, con debilidad de los interóseos."
+      ]
+    }
+  ],
+  "flashcards": [
+    { "frente": "Supraespinoso", "categoria": "Hombro", "reverso": { "Origen": "Fosa supraespinosa de la escápula.", "Inserción": "Tubérculo mayor del húmero.", "Función": "Inicia la abducción del brazo; estabiliza la glenohumeral.", "Inervación": "Nervio supraescapular." } },
+    { "frente": "Deltoides", "categoria": "Hombro", "reverso": { "Origen": "Clavícula lateral, acromion y espina de la escápula.", "Inserción": "Tuberosidad deltoidea del húmero.", "Función": "Abducción del brazo; fibras anteriores flexionan y posteriores extienden.", "Inervación": "Nervio axilar." } },
+    { "frente": "Manguito rotador (SITS)", "categoria": "Hombro", "reverso": { "Músculos": "Supraespinoso, Infraespinoso, redondo menor (Teres minor) y Subescapular.", "Función": "Estabilizan la cabeza humeral en la cavidad glenoidea y la rotan." } },
+    { "frente": "Bíceps braquial", "categoria": "Brazo", "reverso": { "Origen": "Cabeza larga: tubérculo supraglenoideo. Cabeza corta: proceso coracoides.", "Inserción": "Tuberosidad del radio y aponeurosis bicipital.", "Función": "Flexión del codo y supinación potente del antebrazo.", "Inervación": "Nervio musculocutáneo." } },
+    { "frente": "Braquial", "categoria": "Brazo", "reverso": { "Origen": "Mitad distal de la cara anterior del húmero.", "Inserción": "Proceso coronoides y tuberosidad de la ulna.", "Función": "Principal flexor del codo en cualquier posición del antebrazo.", "Inervación": "Nervio musculocutáneo (con contribución del radial)." } },
+    { "frente": "Tríceps braquial", "categoria": "Brazo", "reverso": { "Origen": "Cabeza larga: tubérculo infraglenoideo. Cabezas lateral y medial: cara posterior del húmero.", "Inserción": "Olécranon de la ulna.", "Función": "Extensión del codo.", "Inervación": "Nervio radial." } },
+    { "frente": "Flexor ulnar del carpo", "categoria": "Antebrazo", "reverso": { "Origen": "Epicóndilo medial y olécranon.", "Inserción": "Pisiforme, ganchoso y 5.° metacarpiano.", "Función": "Flexión y aducción (desviación ulnar) de la muñeca.", "Inervación": "Nervio ulnar (excepción entre los flexores)." } },
+    { "frente": "Braquiorradial", "categoria": "Antebrazo", "reverso": { "Origen": "Cresta supracondílea lateral del húmero.", "Inserción": "Base del proceso estiloides del radio.", "Función": "Flexión del codo con el antebrazo en posición neutra.", "Inervación": "Nervio radial (flexor inervado por un nervio extensor)." } },
+    { "frente": "Nervio radial", "categoria": "Nervios", "reverso": { "Trayecto": "Surco del nervio radial del húmero.", "Inerva": "Tríceps y todos los extensores del antebrazo.", "Lesión": "Mano caída." } },
+    { "frente": "Nervio mediano", "categoria": "Nervios", "reverso": { "Trayecto": "Por el túnel carpiano hacia la mano.", "Inerva": "Mayoría de los flexores del antebrazo, eminencia tenar y lumbricales 1-2.", "Lesión": "Síndrome del túnel carpiano." } },
+    { "frente": "Nervio ulnar", "categoria": "Nervios", "reverso": { "Trayecto": "Detrás del epicóndilo medial.", "Inerva": "Flexor ulnar del carpo, parte del flexor profundo, hipotenares, interóseos, aductor del pulgar y lumbricales 3-4.", "Lesión": "Mano en garra." } },
+    { "frente": "Escafoides", "categoria": "Huesos", "reverso": { "Ubicación": "Fila proximal del carpo, lado radial (tabaquera anatómica).", "Importancia": "Es el carpiano que más se fractura; riesgo de necrosis del fragmento proximal." } }
+  ],
+  "quiz": [
+    { "tipo": "multiple", "pregunta": "¿Qué músculo inicia la abducción del brazo?", "opciones": ["Deltoides", "Supraespinoso", "Infraespinoso", "Redondo mayor"], "correcta": 1, "explicacion": "El supraespinoso inicia la abducción (aproximadamente los primeros 15°). Luego el deltoides continúa hasta unos 90°, y más allá participa la rotación de la escápula." },
+    { "tipo": "multiple", "pregunta": "¿Qué nervio puede lesionarse en una fractura del cuello quirúrgico del húmero?", "opciones": ["Radial", "Axilar", "Ulnar", "Musculocutáneo"], "correcta": 1, "explicacion": "El nervio axilar rodea el cuello quirúrgico junto con la arteria circunfleja humeral posterior. Su lesión debilita la abducción por parálisis del deltoides." },
+    { "tipo": "multiple", "pregunta": "Una fractura del cuerpo del húmero produce mano caída. ¿Qué nervio se lesionó?", "opciones": ["Mediano", "Ulnar", "Radial", "Axilar"], "correcta": 2, "explicacion": "El nervio radial recorre el surco del nervio radial en la cara posterior del húmero. Su lesión paraliza los extensores de la muñeca y los dedos." },
+    { "tipo": "vf", "pregunta": "Todos los músculos del compartimento anterior del antebrazo están inervados por el nervio mediano.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. El flexor ulnar del carpo y la mitad medial del flexor profundo de los dedos los inerva el nervio ulnar." },
+    { "tipo": "multiple", "pregunta": "¿Cuál es el principal flexor del codo?", "opciones": ["Bíceps braquial", "Braquial", "Braquiorradial", "Coracobraquial"], "correcta": 1, "explicacion": "El braquial se inserta en la ulna y flexiona el codo en cualquier posición del antebrazo. El bíceps también flexiona, pero es además un potente supinador." },
+    { "tipo": "multiple", "pregunta": "¿Qué nervio se comprime en el síndrome del túnel carpiano?", "opciones": ["Ulnar", "Radial", "Mediano", "Musculocutáneo"], "correcta": 2, "explicacion": "El nervio mediano pasa por el túnel carpiano junto con los tendones flexores. Su compresión produce parestesias en los dedos 1 a 3 y debilidad tenar." },
+    { "tipo": "multiple", "pregunta": "¿Qué músculo del manguito rotador realiza la rotación medial del brazo?", "opciones": ["Supraespinoso", "Infraespinoso", "Redondo menor", "Subescapular"], "correcta": 3, "explicacion": "El subescapular, en la cara anterior de la escápula, se inserta en el tubérculo menor y rota medialmente el húmero. El infraespinoso y el redondo menor son rotadores laterales." },
+    { "tipo": "vf", "pregunta": "La articulación glenohumeral es la que más se luxa del cuerpo, generalmente hacia anteroinferior.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. Su gran movilidad y su cavidad glenoidea poco profunda la hacen inestable, y la cápsula es más débil en su parte anteroinferior." },
+    { "tipo": "multiple", "pregunta": "¿Cuál es el hueso del carpo que más se fractura?", "opciones": ["Semilunar", "Escafoides", "Pisiforme", "Ganchoso"], "correcta": 1, "explicacion": "El escafoides se fractura al caer sobre la mano extendida. Duele en la tabaquera anatómica y tiene riesgo de necrosis avascular del fragmento proximal." },
+    { "tipo": "multiple", "pregunta": "¿Qué nervio inerva los músculos interóseos de la mano?", "opciones": ["Mediano", "Ulnar", "Radial", "Musculocutáneo"], "correcta": 1, "explicacion": "Todos los interóseos los inerva el ramo profundo del nervio ulnar. Por eso su lesión impide abducir y aducir los dedos y produce la mano en garra." },
+    { "tipo": "multiple", "pregunta": "¿En qué estructura se inserta el tríceps braquial?", "opciones": ["Tuberosidad del radio", "Proceso coronoides", "Olécranon", "Epicóndilo lateral"], "correcta": 2, "explicacion": "Las tres cabezas del tríceps se unen en un tendón que se inserta en el olécranon de la ulna, desde donde extienden el codo." }
+  ],
+  "pareados": [
+    { "termino": "Supraespinoso", "definicion": "Inicia la abducción del brazo." },
+    { "termino": "Subescapular", "definicion": "Rotador medial del manguito rotador." },
+    { "termino": "Deltoides", "definicion": "Principal abductor del brazo, inervado por el nervio axilar." },
+    { "termino": "Braquial", "definicion": "Principal flexor del codo." },
+    { "termino": "Tríceps braquial", "definicion": "Extensor del codo que se inserta en el olécranon." },
+    { "termino": "Nervio radial", "definicion": "Su lesión produce mano caída." },
+    { "termino": "Nervio mediano", "definicion": "Se comprime en el túnel carpiano." },
+    { "termino": "Nervio ulnar", "definicion": "Pasa detrás del epicóndilo medial; su lesión produce mano en garra." },
+    { "termino": "Escafoides", "definicion": "Hueso del carpo que más se fractura." }
+  ]
+}

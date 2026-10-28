@@ -12,8 +12,17 @@ export function crearQuiz({ preguntas, clave, porRonda }) {
   const raiz = h('div', { class: 'quiz' })
   let ronda, indice, respuestas
 
+  // Las opciones de opción múltiple se barajan en cada intento para que la posición no delate la respuesta.
+  function mezclarOpciones(p) {
+    if (p.tipo === 'vf') return p
+    const orden = barajar(p.opciones.map((_, i) => i))
+    return { ...p, opciones: orden.map((i) => p.opciones[i]), correcta: orden.indexOf(p.correcta) }
+  }
+
   function nuevaRonda() {
-    ronda = barajar(preguntas).slice(0, porRonda ?? preguntas.length)
+    ronda = barajar(preguntas)
+      .slice(0, porRonda ?? preguntas.length)
+      .map(mezclarOpciones)
     indice = 0
     respuestas = []
     pintarPregunta()

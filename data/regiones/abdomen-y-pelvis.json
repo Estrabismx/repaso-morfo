@@ -1,0 +1,97 @@
+{
+  "titulo": "Abdomen y Pelvis",
+  "intro": "Pared abdominal, conducto inguinal, pelvis ósea y suelo pélvico.",
+  "fuentes": ["Latarjet M, Ruiz Liard A. Anatomía humana", "Moore KL, Dalley AF. Anatomía con orientación clínica"],
+  "secciones": [
+    {
+      "titulo": "Regiones del abdomen",
+      "claves": ["Cuadrantes", "Nueve regiones"],
+      "texto": [
+        "Para describir la ubicación de órganos y dolores, el abdomen se divide en cuatro cuadrantes (por un plano medio y otro transumbilical) o en nueve regiones, delimitadas por dos planos verticales (medioclaviculares) y dos horizontales (subcostal e intertubercular)."
+      ],
+      "puntos": [
+        "Fila superior: hipocondrio derecho, epigastrio, hipocondrio izquierdo.",
+        "Fila media: flanco (lumbar) derecho, región umbilical (mesogastrio), flanco izquierdo.",
+        "Fila inferior: fosa ilíaca (inguinal) derecha, hipogastrio (región púbica), fosa ilíaca izquierda."
+      ]
+    },
+    {
+      "titulo": "Pared anterolateral del abdomen",
+      "claves": ["Oblicuos", "Transverso", "Recto", "Línea alba"],
+      "puntos": [
+        "Oblicuo externo: el más superficial; sus fibras van hacia abajo y medial («manos en los bolsillos»). Su aponeurosis forma, en su borde inferior, el ligamento inguinal (de la EIAS al tubérculo del pubis).",
+        "Oblicuo interno: fibras perpendiculares a las del externo, hacia arriba y medial.",
+        "Transverso del abdomen: el más profundo, con fibras horizontales.",
+        "Recto del abdomen: vertical, del pubis a los cartílagos costales 5.° a 7.° y al xifoides; dividido por intersecciones tendinosas. Está envuelto por la vaina de los rectos, formada por las aponeurosis de los tres músculos planos, que se unen en la línea media formando la línea alba.",
+        "Funciones: comprimir el contenido abdominal (prensa abdominal: tos, defecación, parto, espiración forzada), flexionar y rotar el tronco.",
+        "Inervación: nervios toracoabdominales (T7-T11), subcostal (T12), iliohipogástrico e ilioinguinal (L1)."
+      ]
+    },
+    {
+      "titulo": "Conducto inguinal",
+      "claves": ["Anillo profundo", "Anillo superficial", "Hernias"],
+      "puntos": [
+        "Trayecto oblicuo de unos 4 cm, por encima de la mitad medial del ligamento inguinal.",
+        "Anillo inguinal profundo: abertura en la fascia transversal, lateral a los vasos epigástricos inferiores.",
+        "Anillo inguinal superficial: abertura en la aponeurosis del oblicuo externo, por encima del tubérculo del pubis.",
+        "Contenido: cordón espermático en el hombre, ligamento redondo del útero en la mujer, y el nervio ilioinguinal en ambos.",
+        "Hernia inguinal indirecta: entra por el anillo profundo (lateral a los vasos epigástricos inferiores); es la más frecuente. Hernia directa: atraviesa la pared posterior por el triángulo inguinal (de Hesselbach), medial a esos vasos."
+      ]
+    },
+    {
+      "titulo": "Pared posterior y pelvis ósea",
+      "claves": ["Psoas", "Cuadrado lumbar", "Sacro", "Pelvis mayor y menor"],
+      "puntos": [
+        "Pared posterior: psoas mayor, ilíaco y cuadrado lumbar (flexión lateral del tronco y fijación de la 12.ª costilla).",
+        "Vértebras lumbares: 5, con cuerpos grandes, sin forámenes transversos (propios de las cervicales) ni fositas costales (propias de las torácicas).",
+        "Pelvis ósea: dos coxales, sacro y cóccix. La línea terminal separa la pelvis mayor (parte del abdomen) de la pelvis menor (cavidad pélvica).",
+        "Articulaciones: sacroilíaca (sinovial en su parte anterior y sindesmosis en la posterior; muy estable), sínfisis del pubis (cartilaginosa secundaria) y lumbosacra.",
+        "Diferencias sexuales: la pelvis femenina es más ancha y baja, con abertura superior ovalada y ángulo subpúbico obtuso (unos 80-90°); la masculina es más estrecha, con abertura acorazonada y ángulo subpúbico agudo (unos 50-60°)."
+      ]
+    },
+    {
+      "titulo": "Suelo pélvico",
+      "claves": ["Elevador del ano", "Coccígeo", "Pudendo"],
+      "puntos": [
+        "Diafragma pélvico: elevador del ano (puborrectal, pubococcígeo e iliococcígeo) y coccígeo.",
+        "Funciones: sostener las vísceras pélvicas, resistir los aumentos de presión abdominal y contribuir a la continencia fecal (el puborrectal forma un asa alrededor de la unión anorrectal) y urinaria.",
+        "Inervación: nervio del elevador del ano (S4) y ramos del nervio pudendo (S2-S4). El pudendo inerva además el periné y los esfínteres externos."
+      ],
+      "clave": "El parto vaginal puede debilitar el elevador del ano y favorecer el prolapso de órganos pélvicos y la incontinencia."
+    }
+  ],
+  "flashcards": [
+    { "frente": "Oblicuo externo del abdomen", "categoria": "Pared", "reverso": { "Origen": "Caras externas de las costillas 5.ª a 12.ª.", "Inserción": "Línea alba, tubérculo del pubis y mitad anterior de la cresta ilíaca.", "Función": "Comprime el abdomen; flexiona y rota el tronco hacia el lado opuesto.", "Inervación": "Nervios toracoabdominales (T7-T11) y subcostal (T12)." } },
+    { "frente": "Recto del abdomen", "categoria": "Pared", "reverso": { "Origen": "Sínfisis y cresta del pubis.", "Inserción": "Proceso xifoides y cartílagos costales 5.° a 7.°.", "Función": "Flexión del tronco; compresión abdominal.", "Inervación": "Nervios toracoabdominales (T7-T11) y subcostal (T12)." } },
+    { "frente": "Transverso del abdomen", "categoria": "Pared", "reverso": { "Disposición": "Capa más profunda, con fibras horizontales.", "Función": "Compresión del contenido abdominal («faja» natural).", "Inervación": "Toracoabdominales, subcostal, iliohipogástrico e ilioinguinal." } },
+    { "frente": "Línea alba", "categoria": "Pared", "reverso": { "Definición": "Rafe fibroso en la línea media, del xifoides a la sínfisis del pubis.", "Formación": "Entrecruzamiento de las aponeurosis de los tres músculos planos." } },
+    { "frente": "Ligamento inguinal", "categoria": "Conducto inguinal", "reverso": { "Formación": "Borde inferior engrosado de la aponeurosis del oblicuo externo.", "Inserciones": "De la EIAS al tubérculo del pubis." } },
+    { "frente": "Hernia inguinal indirecta", "categoria": "Conducto inguinal", "reverso": { "Trayecto": "Entra por el anillo inguinal profundo y recorre el conducto.", "Relación": "Lateral a los vasos epigástricos inferiores; es la más frecuente." } },
+    { "frente": "Hernia inguinal directa", "categoria": "Conducto inguinal", "reverso": { "Trayecto": "Atraviesa la pared posterior del conducto por el triángulo inguinal.", "Relación": "Medial a los vasos epigástricos inferiores." } },
+    { "frente": "Cuadrado lumbar", "categoria": "Pared posterior", "reverso": { "Origen": "Cresta ilíaca y ligamento iliolumbar.", "Inserción": "12.ª costilla y procesos transversos lumbares.", "Función": "Flexión lateral del tronco; fija la 12.ª costilla en la inspiración.", "Inervación": "Ramos anteriores de T12-L4." } },
+    { "frente": "Elevador del ano", "categoria": "Suelo pélvico", "reverso": { "Partes": "Puborrectal, pubococcígeo e iliococcígeo.", "Función": "Sostiene las vísceras pélvicas; contribuye a la continencia.", "Inervación": "Nervio del elevador del ano (S4) y ramos del pudendo." } },
+    { "frente": "Pelvis femenina vs. masculina", "categoria": "Pelvis", "reverso": { "Femenina": "Ancha, abertura superior ovalada, ángulo subpúbico obtuso.", "Masculina": "Estrecha, abertura acorazonada, ángulo subpúbico agudo." } }
+  ],
+  "quiz": [
+    { "tipo": "multiple", "pregunta": "¿Qué estructura forma el ligamento inguinal?", "opciones": ["Fascia transversal", "Aponeurosis del oblicuo externo", "Aponeurosis del transverso", "Vaina de los rectos"], "correcta": 1, "explicacion": "El ligamento inguinal es el borde inferior, engrosado y replegado, de la aponeurosis del oblicuo externo, entre la EIAS y el tubérculo del pubis." },
+    { "tipo": "multiple", "pregunta": "¿Cuál es el músculo más profundo de la pared anterolateral del abdomen?", "opciones": ["Oblicuo externo", "Oblicuo interno", "Transverso del abdomen", "Recto del abdomen"], "correcta": 2, "explicacion": "De superficial a profundo: oblicuo externo, oblicuo interno y transverso del abdomen." },
+    { "tipo": "multiple", "pregunta": "¿Por dónde entra una hernia inguinal indirecta?", "opciones": ["Por el triángulo inguinal", "Por el anillo inguinal profundo", "Por el anillo femoral", "Por el ombligo"], "correcta": 1, "explicacion": "La hernia indirecta entra por el anillo inguinal profundo, lateral a los vasos epigástricos inferiores, y sigue el trayecto del conducto." },
+    { "tipo": "vf", "pregunta": "Una hernia inguinal directa aparece medial a los vasos epigástricos inferiores.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. Atraviesa la pared posterior del conducto por el triángulo inguinal (de Hesselbach), que queda medial a esos vasos." },
+    { "tipo": "multiple", "pregunta": "¿Qué contiene el conducto inguinal en la mujer?", "opciones": ["Cordón espermático", "Ligamento redondo del útero", "Trompa uterina", "Ligamento ancho"], "correcta": 1, "explicacion": "En la mujer el conducto inguinal contiene el ligamento redondo del útero (y el nervio ilioinguinal), equivalente al cordón espermático del hombre." },
+    { "tipo": "multiple", "pregunta": "¿Qué región abdominal está entre los dos hipocondrios?", "opciones": ["Mesogastrio", "Epigastrio", "Hipogastrio", "Flanco"], "correcta": 1, "explicacion": "La fila superior de las nueve regiones es: hipocondrio derecho, epigastrio e hipocondrio izquierdo." },
+    { "tipo": "multiple", "pregunta": "¿Qué rasgo distingue a las vértebras lumbares?", "opciones": ["Forámenes transversos", "Fositas costales", "Cuerpos grandes sin forámenes transversos ni fositas costales", "Proceso espinoso bífido"], "correcta": 2, "explicacion": "Las lumbares tienen cuerpos grandes para soportar peso. Los forámenes transversos y el proceso espinoso bífido son cervicales; las fositas costales, torácicas." },
+    { "tipo": "vf", "pregunta": "La pelvis femenina tiene un ángulo subpúbico más agudo que la masculina.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. La pelvis femenina tiene un ángulo subpúbico más amplio (obtuso), adaptado al parto. El de la masculina es agudo." },
+    { "tipo": "multiple", "pregunta": "¿Qué músculo forma la mayor parte del diafragma pélvico?", "opciones": ["Obturador interno", "Elevador del ano", "Piriforme", "Glúteo mayor"], "correcta": 1, "explicacion": "El elevador del ano, con el coccígeo, forma el diafragma pélvico, que sostiene las vísceras pélvicas." },
+    { "tipo": "multiple", "pregunta": "¿Qué segmentos medulares forman el nervio pudendo?", "opciones": ["L1-L2", "L4-S1", "S2-S4", "T12-L1"], "correcta": 2, "explicacion": "El nervio pudendo nace de S2-S4 e inerva el periné, los esfínteres externos y parte del suelo pélvico." }
+  ],
+  "pareados": [
+    { "termino": "Oblicuo externo", "definicion": "Músculo más superficial de la pared anterolateral del abdomen." },
+    { "termino": "Transverso del abdomen", "definicion": "Músculo más profundo de la pared, con fibras horizontales." },
+    { "termino": "Línea alba", "definicion": "Rafe fibroso medio entre los rectos del abdomen." },
+    { "termino": "Ligamento inguinal", "definicion": "Va de la EIAS al tubérculo del pubis." },
+    { "termino": "Anillo inguinal profundo", "definicion": "Abertura en la fascia transversal; entrada de la hernia indirecta." },
+    { "termino": "Triángulo inguinal", "definicion": "Zona débil por donde sale la hernia directa." },
+    { "termino": "Cuadrado lumbar", "definicion": "Músculo de la pared posterior que flexiona lateralmente el tronco." },
+    { "termino": "Elevador del ano", "definicion": "Principal músculo del diafragma pélvico." }
+  ]
+}

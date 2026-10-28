@@ -1,20 +1,30 @@
 {
   "titulo": "Miología",
-  "intro": "Estudio de los músculos esqueléticos: sus inserciones, su acción y cómo se nombran.",
+  "intro": "Estudio de los músculos esqueléticos: su estructura, sus inserciones, su acción y cómo se nombran.",
   "fuentes": ["Latarjet M, Ruiz Liard A. Anatomía humana", "Moore KL, Dalley AF. Anatomía con orientación clínica"],
-  "pendiente": "Fase 2: se agregarán flashcards (como la del músculo sartorio), quiz y pareados de Miología.",
   "secciones": [
+    {
+      "titulo": "Partes de un músculo esquelético",
+      "claves": ["Vientre", "Tendón", "Aponeurosis", "Fascia"],
+      "puntos": [
+        "Vientre: porción carnosa y contráctil.",
+        "Tendón: cordón de tejido conectivo denso que une el músculo al hueso.",
+        "Aponeurosis: tendón aplanado en forma de lámina (por ejemplo, la aponeurosis del oblicuo externo).",
+        "Fascia: lámina de tejido conectivo que envuelve músculos y forma compartimentos. Los tabiques intermusculares separan grupos musculares con funciones e inervación comunes."
+      ],
+      "clave": "Los músculos de un mismo compartimento suelen compartir acción e inervación. Aprender por compartimentos simplifica mucho el estudio."
+    },
     {
       "titulo": "Origen, inserción y función",
       "claves": ["Agonista", "Antagonista", "Sinergista", "Fijador"],
       "texto": [
-        "El origen suele ser la inserción proximal, que permanece más fija durante la contracción, y la inserción propiamente tal suele ser la distal y más móvil. Esta convención puede invertirse según el movimiento: por ejemplo, al hacer una dominada, el brazo se fija y el tronco se mueve."
+        "El origen suele ser la inserción proximal, que permanece más fija durante la contracción, y la inserción propiamente tal suele ser la distal y más móvil. Esta convención puede invertirse según el movimiento: al hacer una dominada, el brazo queda fijo y el tronco se mueve."
       ],
       "puntos": [
-        "Agonista (motor principal): el músculo que realiza principalmente un movimiento.",
-        "Antagonista: realiza la acción opuesta y se relaja de forma controlada mientras actúa el agonista.",
-        "Sinergista: complementa la acción del agonista o neutraliza movimientos no deseados.",
-        "Fijador: estabiliza el segmento proximal para que el agonista actúe con eficacia."
+        "Agonista (motor principal): el músculo que realiza principalmente un movimiento. Ejemplo: el braquial al flexionar el codo.",
+        "Antagonista: realiza la acción opuesta y se relaja de forma controlada mientras actúa el agonista. Ejemplo: el tríceps braquial frente a la flexión del codo.",
+        "Sinergista: complementa la acción del agonista o neutraliza movimientos no deseados. Ejemplo: los extensores de la muñeca, que impiden que esta se flexione al cerrar el puño.",
+        "Fijador: estabiliza el segmento proximal para que el agonista actúe con eficacia. Ejemplo: los músculos que fijan la escápula mientras el deltoides abduce el brazo."
       ]
     },
     {
@@ -22,11 +32,55 @@
       "claves": ["Bíceps", "Digástrico", "Fusiforme"],
       "puntos": [
         "Por su forma: deltoides (triangular), trapecio, romboides, redondo, cuadrado.",
-        "Por la disposición de sus fibras: fusiforme (vientre central más ancho), peniforme, semipeniforme o multipeniforme, plano o ancho.",
+        "Por la disposición de sus fibras: paralelos (planos, fusiformes, con vientre central más ancho) o peniformes (semipeniforme, peniforme, multipeniforme). Los peniformes tienen más fibras por área y generan más fuerza, pero acortan menos.",
         "Por el número de cabezas: bíceps (2), tríceps (3), cuádriceps (4).",
         "Por el número de vientres: digástrico (dos vientres unidos por un tendón intermedio).",
-        "También por su ubicación (tibial anterior), tamaño (glúteo mayor), dirección de sus fibras (oblicuo externo) o acción (aductor largo)."
+        "También por su ubicación (tibial anterior), tamaño (glúteo mayor), longitud (aductor largo), dirección de sus fibras (oblicuo externo), acción (supinador) o inserciones (esternocleidomastoideo)."
+      ]
+    },
+    {
+      "titulo": "Inervación y tipos de contracción",
+      "claves": ["Unidad motora", "Isométrica", "Concéntrica", "Excéntrica"],
+      "puntos": [
+        "Unidad motora: una motoneurona y todas las fibras que inerva. Los músculos de movimientos finos (como los oculares) tienen unidades motoras pequeñas.",
+        "Contracción isométrica: hay tensión sin cambio de longitud (mantener una postura).",
+        "Contracción concéntrica: el músculo se acorta (levantar una carga).",
+        "Contracción excéntrica: el músculo se alarga de forma controlada mientras se contrae (bajar una carga)."
       ]
     }
+  ],
+  "flashcards": [
+    { "frente": "Músculo sartorio", "categoria": "Ejemplo", "reverso": { "Origen": "Espina ilíaca anterosuperior (EIAS).", "Inserción": "Cara medial de la tibia proximal (pata de ganso).", "Función": "Flexión, abducción y rotación lateral de la cadera; flexión de la rodilla.", "Inervación": "Nervio femoral." } },
+    { "frente": "Músculo bíceps braquial", "categoria": "Ejemplo", "reverso": { "Origen": "Cabeza larga: tubérculo supraglenoideo. Cabeza corta: proceso coracoides.", "Inserción": "Tuberosidad del radio y aponeurosis bicipital.", "Función": "Flexión del codo y supinación del antebrazo.", "Inervación": "Nervio musculocutáneo." } },
+    { "frente": "Músculo digástrico", "categoria": "Ejemplo", "reverso": { "Forma": "Dos vientres (anterior y posterior) unidos por un tendón intermedio fijado al hioides.", "Función": "Eleva el hioides y deprime la mandíbula.", "Inervación": "Vientre anterior: nervio milohioideo (V3). Vientre posterior: nervio facial (VII)." } },
+    { "frente": "Agonista", "categoria": "Función", "reverso": { "Definición": "Motor principal de un movimiento.", "Ejemplo": "Braquial en la flexión del codo." } },
+    { "frente": "Antagonista", "categoria": "Función", "reverso": { "Definición": "Músculo de acción opuesta al agonista.", "Ejemplo": "Tríceps braquial frente a la flexión del codo." } },
+    { "frente": "Sinergista", "categoria": "Función", "reverso": { "Definición": "Complementa al agonista o neutraliza movimientos indeseados.", "Ejemplo": "Extensores de la muñeca al cerrar el puño." } },
+    { "frente": "Fijador", "categoria": "Función", "reverso": { "Definición": "Estabiliza el hueso de origen del agonista.", "Ejemplo": "Músculos escapulares durante la abducción del brazo." } },
+    { "frente": "Músculo peniforme", "categoria": "Forma", "reverso": { "Definición": "Fibras oblicuas que se insertan en un tendón, como las barbas de una pluma.", "Característica": "Más fuerza, menor amplitud de acortamiento. Ejemplo: recto femoral (bipeniforme)." } },
+    { "frente": "Aponeurosis", "categoria": "Estructura", "reverso": { "Definición": "Tendón aplanado en forma de lámina.", "Ejemplo": "Aponeurosis del oblicuo externo; aponeurosis palmar." } },
+    { "frente": "Contracción excéntrica", "categoria": "Contracción", "reverso": { "Definición": "El músculo se alarga mientras genera tensión.", "Ejemplo": "Cuádriceps al bajar una escalera." } }
+  ],
+  "quiz": [
+    { "tipo": "multiple", "pregunta": "¿Cómo se llama el músculo que realiza principalmente un movimiento?", "opciones": ["Antagonista", "Agonista", "Fijador", "Sinergista"], "correcta": 1, "explicacion": "El agonista o motor principal es el que realiza la acción. El antagonista se opone, el sinergista ayuda y el fijador estabiliza el origen." },
+    { "tipo": "multiple", "pregunta": "¿Qué músculo tiene dos vientres unidos por un tendón intermedio?", "opciones": ["Bíceps braquial", "Digástrico", "Tríceps sural", "Deltoides"], "correcta": 1, "explicacion": "El digástrico tiene un vientre anterior y otro posterior unidos por un tendón intermedio. El bíceps tiene dos cabezas, no dos vientres." },
+    { "tipo": "vf", "pregunta": "El origen de un músculo es siempre la inserción que permanece fija en todos los movimientos.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. Es una convención: suele ser la inserción proximal y más fija, pero según el movimiento puede moverse, como el tronco en una dominada." },
+    { "tipo": "multiple", "pregunta": "¿Cuál es la inervación del músculo sartorio?", "opciones": ["Nervio obturador", "Nervio ciático", "Nervio femoral", "Nervio glúteo superior"], "correcta": 2, "explicacion": "El sartorio pertenece al compartimento anterior del muslo, inervado por el nervio femoral." },
+    { "tipo": "multiple", "pregunta": "¿Cuántas cabezas tiene el cuádriceps femoral?", "opciones": ["Dos", "Tres", "Cuatro", "Cinco"], "correcta": 2, "explicacion": "El cuádriceps tiene cuatro cabezas: recto femoral y vastos lateral, medial e intermedio. El nombre indica el número de cabezas." },
+    { "tipo": "multiple", "pregunta": "Al bajar lentamente una pesa, ¿qué tipo de contracción hace el bíceps braquial?", "opciones": ["Concéntrica", "Excéntrica", "Isométrica", "Ninguna, está relajado"], "correcta": 1, "explicacion": "El bíceps se alarga mientras sigue contraído para frenar el descenso: es una contracción excéntrica." },
+    { "tipo": "vf", "pregunta": "Los músculos peniformes generan más fuerza que los paralelos de igual tamaño, pero acortan menos.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. Sus fibras oblicuas permiten más fibras por área de sección, lo que aumenta la fuerza, a costa de una menor amplitud de acortamiento." },
+    { "tipo": "multiple", "pregunta": "¿Qué músculo actúa como antagonista del bíceps braquial en la flexión del codo?", "opciones": ["Braquial", "Braquiorradial", "Tríceps braquial", "Deltoides"], "correcta": 2, "explicacion": "El tríceps braquial extiende el codo, la acción opuesta. El braquial y el braquiorradial son sinergistas de la flexión." },
+    { "tipo": "multiple", "pregunta": "¿Cómo se llama un tendón aplanado en forma de lámina?", "opciones": ["Fascia", "Aponeurosis", "Ligamento", "Tabique intermuscular"], "correcta": 1, "explicacion": "La aponeurosis es un tendón ancho y plano, como la del oblicuo externo del abdomen." },
+    { "tipo": "multiple", "pregunta": "El nombre «deltoides» hace referencia a…", "opciones": ["Su número de cabezas", "Su forma triangular", "Su acción", "Su inervación"], "correcta": 1, "explicacion": "Deltoides significa «con forma de delta (Δ)», es decir, triangular. Es un ejemplo de nomenclatura por forma." }
+  ],
+  "pareados": [
+    { "termino": "Agonista", "definicion": "Motor principal de un movimiento." },
+    { "termino": "Antagonista", "definicion": "Músculo que realiza la acción opuesta." },
+    { "termino": "Sinergista", "definicion": "Ayuda al agonista o neutraliza movimientos indeseados." },
+    { "termino": "Fijador", "definicion": "Estabiliza el hueso de origen." },
+    { "termino": "Digástrico", "definicion": "Músculo con dos vientres unidos por un tendón intermedio." },
+    { "termino": "Aponeurosis", "definicion": "Tendón aplanado en forma de lámina." },
+    { "termino": "Unidad motora", "definicion": "Una motoneurona y todas las fibras que inerva." },
+    { "termino": "Contracción isométrica", "definicion": "Tensión sin cambio de longitud del músculo." }
   ]
 }

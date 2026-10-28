@@ -1,0 +1,115 @@
+{
+  "titulo": "Extremidad Inferior",
+  "intro": "Cintura pélvica, muslo, pierna y pie: huesos, articulaciones, músculos por compartimento y nervios principales.",
+  "fuentes": ["Latarjet M, Ruiz Liard A. Anatomía humana", "Moore KL, Dalley AF. Anatomía con orientación clínica"],
+  "secciones": [
+    {
+      "titulo": "Huesos",
+      "claves": ["Coxal", "Fémur", "Patela", "Tibia", "Fíbula", "Tarso"],
+      "puntos": [
+        "Coxal: ilion, isquion y pubis fusionados en el acetábulo. Los dos coxales y el sacro forman la pelvis.",
+        "Fémur: el hueso más largo y resistente del cuerpo. Cabeza, cuello, trocánteres, línea áspera y cóndilos.",
+        "Patela: el sesamoideo más grande, dentro del tendón del cuádriceps.",
+        "Tibia: hueso medial de la pierna; soporta el peso. Termina en el maléolo medial.",
+        "Fíbula (peroné): hueso lateral, delgado; no se articula con el fémur ni soporta peso de forma importante. Termina en el maléolo lateral.",
+        "Pie: 7 huesos del tarso (talus o astrágalo, calcáneo, navicular, cuboides y tres cuneiformes), 5 metatarsianos y 14 falanges."
+      ]
+    },
+    {
+      "titulo": "Articulaciones",
+      "claves": ["Coxofemoral", "Rodilla", "Talocrural", "Subtalar"],
+      "puntos": [
+        "Coxofemoral: esferoidea, muy estable gracias al acetábulo profundo, el labrum y el ligamento iliofemoral.",
+        "Rodilla: femorotibial (bicondílea) y femoropatelar. Meniscos medial y lateral; ligamentos cruzados anterior y posterior; colaterales tibial (medial) y fibular (lateral). La tríada de lesión clásica afecta al LCA, el colateral tibial y el menisco medial.",
+        "Talocrural (tobillo): gínglimo entre la mortaja tibiofibular y la tróclea del talus. Permite dorsiflexión y flexión plantar. Ligamento deltoideo (medial) y ligamentos laterales; el talofibular anterior es el que más se lesiona en los esguinces por inversión.",
+        "Subtalar y transversa del tarso: permiten la inversión y la eversión del pie."
+      ]
+    },
+    {
+      "titulo": "Músculos de la cadera y el muslo",
+      "claves": ["Glúteos", "Iliopsoas", "Cuádriceps", "Aductores", "Isquiotibiales"],
+      "puntos": [
+        "Región glútea: glúteo mayor (extensión y rotación lateral de la cadera; nervio glúteo inferior); glúteos medio y menor (abducción, y estabilizan la pelvis al caminar; nervio glúteo superior); tensor de la fascia lata (nervio glúteo superior); rotadores laterales profundos (piriforme, obturadores, gemelos, cuadrado femoral).",
+        "Iliopsoas (psoas mayor e ilíaco): principal flexor de la cadera; se inserta en el trocánter menor.",
+        "Compartimento anterior del muslo (nervio femoral): cuádriceps femoral, cuyas cuatro cabezas convergen en el tendón cuadricipital, la patela y el ligamento patelar hasta la tuberosidad tibial (extensión de la rodilla; el recto femoral además flexiona la cadera); y sartorio.",
+        "Compartimento medial (nervio obturador): aductores largo, corto y mayor, grácil y pectíneo. Aducen el muslo. La porción isquiotibial del aductor mayor la inerva el nervio tibial.",
+        "Compartimento posterior o isquiotibiales (nervio ciático, porción tibial): semitendinoso, semimembranoso y bíceps femoral. Se originan en la tuberosidad isquiática; extienden la cadera y flexionan la rodilla. La cabeza corta del bíceps la inerva el nervio fibular común."
+      ],
+      "clave": "Pata de ganso: sartorio, grácil y semitendinoso, que se insertan juntos en la cara medial de la tibia proximal. Cada uno viene de un compartimento distinto (anterior, medial y posterior)."
+    },
+    {
+      "titulo": "Músculos de la pierna y el pie",
+      "claves": ["Anterior", "Lateral", "Posterior", "Tendón calcáneo"],
+      "puntos": [
+        "Compartimento anterior (nervio fibular profundo): tibial anterior (dorsiflexión e inversión), extensor largo de los dedos, extensor largo del hallux y fibular tercero.",
+        "Compartimento lateral (nervio fibular superficial): fibulares largo y corto (eversión del pie).",
+        "Compartimento posterior superficial (nervio tibial): gastrocnemio (se origina en los cóndilos femorales), sóleo y plantar. El gastrocnemio y el sóleo forman el tríceps sural, que se inserta en el calcáneo mediante el tendón calcáneo (de Aquiles); flexión plantar.",
+        "Compartimento posterior profundo (nervio tibial): tibial posterior (inversión), flexor largo de los dedos, flexor largo del hallux y poplíteo (desbloquea la rodilla extendida).",
+        "Pie: músculos intrínsecos en cuatro capas plantares (nervios plantares medial y lateral) que sostienen los arcos del pie."
+      ]
+    },
+    {
+      "titulo": "Nervios principales",
+      "claves": ["Plexo lumbar", "Plexo sacro", "Femoral", "Ciático"],
+      "puntos": [
+        "Plexo lumbar (L1-L4): nervio femoral (L2-L4) para el compartimento anterior del muslo, y nervio obturador (L2-L4) para el medial.",
+        "Plexo sacro (L4-S4): nervios glúteos superior e inferior, y nervio ciático (L4-S3), el más grueso del cuerpo, que se divide en tibial y fibular común, generalmente sobre la fosa poplítea.",
+        "Nervio fibular común: rodea el cuello de la fíbula, donde es muy superficial y vulnerable.",
+        "Lesión del nervio glúteo superior: signo de Trendelenburg (al apoyarse en el lado afectado, la pelvis cae hacia el lado sano).",
+        "Lesión del nervio fibular común: pie caído (pérdida de la dorsiflexión) y marcha en estepaje."
+      ]
+    }
+  ],
+  "diagrama": {
+    "imagen": "femur-anterior",
+    "instrucciones": "Fémur derecho en vista anterior. Escribe el nombre de cada estructura numerada.",
+    "marcadores": [
+      { "n": 1, "x": 73, "y": 12.3, "respuestas": ["Cabeza del fémur", "Cabeza femoral", "Cabeza"] },
+      { "n": 2, "x": 63, "y": 17.4, "respuestas": ["Cuello del fémur", "Cuello femoral", "Cuello anatómico", "Cuello"] },
+      { "n": 3, "x": 34.5, "y": 15, "respuestas": ["Trocánter mayor", "Gran trocánter"] },
+      { "n": 4, "x": 60, "y": 30.7, "respuestas": ["Trocánter menor", "Pequeño trocánter"] },
+      { "n": 5, "x": 47.5, "y": 54.3, "respuestas": ["Cuerpo del fémur", "Diáfisis", "Diáfisis femoral", "Cuerpo"] },
+      { "n": 6, "x": 65.5, "y": 88.3, "respuestas": ["Cóndilo medial", "Cóndilo interno"] },
+      { "n": 7, "x": 34.5, "y": 88.3, "respuestas": ["Cóndilo lateral", "Cóndilo externo"] },
+      { "n": 8, "x": 50, "y": 82.1, "respuestas": ["Cara patelar", "Superficie patelar", "Tróclea femoral", "Tróclea"] }
+    ]
+  },
+  "flashcards": [
+    { "frente": "Músculo sartorio", "categoria": "Muslo", "reverso": { "Origen": "Espina ilíaca anterosuperior (EIAS).", "Inserción": "Cara medial de la tibia proximal (pata de ganso).", "Función": "Flexión, abducción y rotación lateral de la cadera; flexión de la rodilla.", "Inervación": "Nervio femoral." } },
+    { "frente": "Cuádriceps femoral", "categoria": "Muslo", "reverso": { "Origen": "Recto femoral: EIAI. Vastos: fémur (línea áspera, cara anterior y lateral).", "Inserción": "Patela y, mediante el ligamento patelar, tuberosidad tibial.", "Función": "Extensión de la rodilla; el recto femoral también flexiona la cadera.", "Inervación": "Nervio femoral." } },
+    { "frente": "Iliopsoas", "categoria": "Cadera", "reverso": { "Origen": "Psoas: cuerpos y procesos transversos de T12-L5. Ilíaco: fosa ilíaca.", "Inserción": "Trocánter menor del fémur.", "Función": "Principal flexor de la cadera.", "Inervación": "Psoas: ramos anteriores L1-L3. Ilíaco: nervio femoral." } },
+    { "frente": "Glúteo mayor", "categoria": "Cadera", "reverso": { "Origen": "Ilion posterior, sacro y cóccix.", "Inserción": "Tracto iliotibial y tuberosidad glútea del fémur.", "Función": "Extensión y rotación lateral de la cadera (levantarse de una silla, subir escaleras).", "Inervación": "Nervio glúteo inferior." } },
+    { "frente": "Glúteo medio", "categoria": "Cadera", "reverso": { "Origen": "Cara externa del ilion.", "Inserción": "Trocánter mayor.", "Función": "Abducción y rotación medial de la cadera; estabiliza la pelvis en la marcha.", "Inervación": "Nervio glúteo superior (lesión: signo de Trendelenburg)." } },
+    { "frente": "Isquiotibiales", "categoria": "Muslo", "reverso": { "Músculos": "Semitendinoso, semimembranoso y bíceps femoral.", "Origen": "Tuberosidad isquiática (la cabeza corta del bíceps, en la línea áspera).", "Función": "Extensión de la cadera y flexión de la rodilla.", "Inervación": "Nervio ciático (porción tibial; cabeza corta del bíceps: fibular común)." } },
+    { "frente": "Aductor largo", "categoria": "Muslo", "reverso": { "Origen": "Cuerpo del pubis.", "Inserción": "Tercio medio de la línea áspera.", "Función": "Aducción del muslo.", "Inervación": "Nervio obturador." } },
+    { "frente": "Tibial anterior", "categoria": "Pierna", "reverso": { "Origen": "Cóndilo lateral y cara lateral de la tibia.", "Inserción": "Cuneiforme medial y base del 1.er metatarsiano.", "Función": "Dorsiflexión e inversión del pie.", "Inervación": "Nervio fibular profundo." } },
+    { "frente": "Gastrocnemio", "categoria": "Pierna", "reverso": { "Origen": "Cóndilos medial y lateral del fémur.", "Inserción": "Calcáneo (tendón calcáneo).", "Función": "Flexión plantar del tobillo; flexión de la rodilla.", "Inervación": "Nervio tibial." } },
+    { "frente": "Fibular largo", "categoria": "Pierna", "reverso": { "Origen": "Cabeza y cara lateral de la fíbula.", "Inserción": "Cuneiforme medial y base del 1.er metatarsiano (cruza la planta).", "Función": "Eversión y flexión plantar débil; sostiene el arco transverso.", "Inervación": "Nervio fibular superficial." } },
+    { "frente": "Nervio fibular común", "categoria": "Nervios", "reverso": { "Trayecto": "Rama del ciático; rodea el cuello de la fíbula y se divide en superficial y profundo.", "Lesión": "Pie caído (sin dorsiflexión) y marcha en estepaje." } },
+    { "frente": "Ligamento talofibular anterior", "categoria": "Articulaciones", "reverso": { "Ubicación": "Del maléolo lateral al cuello del talus.", "Importancia": "Es el ligamento que más se lesiona en los esguinces de tobillo por inversión." } }
+  ],
+  "quiz": [
+    { "tipo": "multiple", "pregunta": "¿Cuál es el principal flexor de la cadera?", "opciones": ["Glúteo mayor", "Iliopsoas", "Sartorio", "Aductor largo"], "correcta": 1, "explicacion": "El iliopsoas (psoas mayor e ilíaco) se inserta en el trocánter menor y es el flexor más potente de la cadera. El glúteo mayor la extiende." },
+    { "tipo": "multiple", "pregunta": "¿Qué nervio inerva el compartimento anterior del muslo?", "opciones": ["Obturador", "Ciático", "Femoral", "Tibial"], "correcta": 2, "explicacion": "El nervio femoral (L2-L4) inerva el cuádriceps y el sartorio. El obturador inerva el compartimento medial y el ciático, el posterior." },
+    { "tipo": "multiple", "pregunta": "Un paciente presenta signo de Trendelenburg. ¿Qué nervio está probablemente lesionado?", "opciones": ["Glúteo inferior", "Glúteo superior", "Femoral", "Obturador"], "correcta": 1, "explicacion": "El nervio glúteo superior inerva los glúteos medio y menor, que estabilizan la pelvis al apoyarse en una pierna. Si fallan, la pelvis cae hacia el lado opuesto." },
+    { "tipo": "vf", "pregunta": "La fíbula se articula con el fémur en la rodilla.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. La fíbula se articula con la tibia (articulaciones tibiofibulares proximal y distal) y con el talus en el tobillo, pero no con el fémur." },
+    { "tipo": "multiple", "pregunta": "¿Qué músculos forman la pata de ganso?", "opciones": ["Sartorio, grácil y semitendinoso", "Sartorio, recto femoral y semimembranoso", "Grácil, aductor largo y bíceps femoral", "Semitendinoso, semimembranoso y bíceps femoral"], "correcta": 0, "explicacion": "Sartorio (anterior), grácil (medial) y semitendinoso (posterior) se insertan juntos en la cara medial de la tibia proximal, formando la pata de ganso." },
+    { "tipo": "multiple", "pregunta": "¿Qué músculos realizan principalmente la eversión del pie?", "opciones": ["Tibial anterior y tibial posterior", "Fibulares largo y corto", "Gastrocnemio y sóleo", "Extensores de los dedos"], "correcta": 1, "explicacion": "Los fibulares largo y corto, del compartimento lateral (nervio fibular superficial), evierten el pie. Los tibiales anterior y posterior lo invierten." },
+    { "tipo": "multiple", "pregunta": "Tras un golpe en la cara lateral de la rodilla, un paciente no puede hacer dorsiflexión del pie. ¿Qué nervio se lesionó?", "opciones": ["Tibial", "Femoral", "Fibular común", "Safeno"], "correcta": 2, "explicacion": "El nervio fibular común rodea el cuello de la fíbula, donde es muy superficial. Su lesión produce pie caído por parálisis del compartimento anterior." },
+    { "tipo": "vf", "pregunta": "El menisco medial se lesiona con más frecuencia que el lateral porque está unido al ligamento colateral tibial.", "opciones": ["Verdadero", "Falso"], "correcta": 0, "explicacion": "Verdadero. Esa unión lo hace menos móvil, por lo que no puede esquivar las fuerzas de torsión y se desgarra con más facilidad." },
+    { "tipo": "multiple", "pregunta": "¿Qué músculos forman el tendón calcáneo (de Aquiles)?", "opciones": ["Tibial posterior y sóleo", "Gastrocnemio y sóleo", "Fibulares largo y corto", "Flexores largos de los dedos y del hallux"], "correcta": 1, "explicacion": "El gastrocnemio y el sóleo (tríceps sural) se insertan en el calcáneo mediante el tendón calcáneo, y producen la flexión plantar." },
+    { "tipo": "multiple", "pregunta": "¿Qué ligamento del tobillo se lesiona con más frecuencia en un esguince por inversión?", "opciones": ["Deltoideo", "Talofibular anterior", "Calcaneofibular", "Talofibular posterior"], "correcta": 1, "explicacion": "El talofibular anterior es el ligamento lateral más débil y el primero en romperse cuando el pie se invierte bruscamente." },
+    { "tipo": "multiple", "pregunta": "¿Qué movimiento realizan los isquiotibiales?", "opciones": ["Flexión de cadera y extensión de rodilla", "Extensión de cadera y flexión de rodilla", "Aducción del muslo", "Abducción del muslo"], "correcta": 1, "explicacion": "Los isquiotibiales cruzan dos articulaciones: por detrás de la cadera (la extienden) y por detrás de la rodilla (la flexionan)." }
+  ],
+  "pareados": [
+    { "termino": "Iliopsoas", "definicion": "Principal flexor de la cadera; se inserta en el trocánter menor." },
+    { "termino": "Glúteo medio", "definicion": "Abductor que estabiliza la pelvis al caminar." },
+    { "termino": "Cuádriceps femoral", "definicion": "Extensor de la rodilla con cuatro cabezas." },
+    { "termino": "Isquiotibiales", "definicion": "Extienden la cadera y flexionan la rodilla." },
+    { "termino": "Tibial anterior", "definicion": "Dorsiflexión e inversión del pie." },
+    { "termino": "Tríceps sural", "definicion": "Gastrocnemio y sóleo; flexión plantar." },
+    { "termino": "Nervio obturador", "definicion": "Inerva el compartimento medial del muslo." },
+    { "termino": "Nervio fibular común", "definicion": "Rodea el cuello de la fíbula; su lesión causa pie caído." },
+    { "termino": "Talus", "definicion": "Hueso del tarso que se articula con la tibia y la fíbula." }
+  ]
+}

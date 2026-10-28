@@ -1,0 +1,85 @@
+{
+  "titulo": "Cabeza y Cuello",
+  "intro": "Cráneo, vértebras cervicales, articulación temporomandibular y músculos de la mímica, la masticación y el cuello.",
+  "fuentes": ["Latarjet M, Ruiz Liard A. Anatomía humana", "Moore KL, Dalley AF. Anatomía con orientación clínica"],
+  "secciones": [
+    {
+      "titulo": "Cráneo",
+      "claves": ["Neurocráneo", "Viscerocráneo", "Suturas", "Fontanelas"],
+      "puntos": [
+        "Neurocráneo (8 huesos, protege el encéfalo): frontal, 2 parietales, 2 temporales, occipital, esfenoides y etmoides.",
+        "Viscerocráneo (14 huesos, esqueleto facial): 2 nasales, 2 maxilares, 2 cigomáticos, 2 palatinos, 2 lagrimales, 2 cornetes nasales inferiores, vómer y mandíbula.",
+        "Suturas principales: coronal (frontal y parietales), sagital (entre los parietales), lambdoidea (parietales y occipital) y escamosa (parietal y temporal).",
+        "Fontanelas del recién nacido: anterior (bregma), que cierra hacia los 18-24 meses, y posterior (lambda), que cierra hacia los 2-3 meses.",
+        "Base del cráneo: fosas anterior, media y posterior. El foramen magno, en el occipital, comunica la cavidad craneal con el conducto vertebral.",
+        "Hioides: hueso en U en el cuello, que no se articula con ningún otro hueso; lo sostienen músculos y ligamentos."
+      ],
+      "clave": "El pterion, donde se unen frontal, parietal, temporal y esfenoides, es el punto más delgado de la pared lateral del cráneo. Por dentro pasa la arteria meníngea media, cuya rotura produce un hematoma epidural."
+    },
+    {
+      "titulo": "Columna cervical y articulaciones",
+      "claves": ["Atlas", "Axis", "Temporomandibular"],
+      "puntos": [
+        "Vértebras cervicales: 7, pequeñas, con forámenes transversos (por donde pasa la arteria vertebral, de C6 a C1) y procesos espinosos bífidos (de C3 a C6).",
+        "Atlas (C1): no tiene cuerpo; es un anillo con masas laterales que sostiene el cráneo.",
+        "Axis (C2): tiene el diente (dens), alrededor del cual rota el atlas.",
+        "C7 (vértebra prominente): su proceso espinoso largo es el primero palpable en la base del cuello.",
+        "Atlantooccipital: permite la flexión y extensión de la cabeza (gesto de «sí»). Atlantoaxial: permite la rotación (gesto de «no»).",
+        "Temporomandibular: sinovial bicondílea entre el cóndilo de la mandíbula y la fosa mandibular del temporal, con un disco articular fibrocartilaginoso que la divide en dos compartimentos. Permite elevar y deprimir la mandíbula, protruirla y retruirla, y moverla lateralmente."
+      ]
+    },
+    {
+      "titulo": "Músculos de la cabeza",
+      "claves": ["Mímica", "Masticación", "Nervio facial", "Nervio trigémino"],
+      "puntos": [
+        "Músculos de la mímica (expresión facial): se insertan en la piel y los inerva el nervio facial (VII). Los principales son el orbicular de los ojos (cierra los párpados), el orbicular de la boca (cierra los labios), el buccinador (comprime la mejilla al soplar y masticar), el occipitofrontal (eleva las cejas), el cigomático mayor (sonrisa) y el platisma (tensa la piel del cuello).",
+        "Músculos de la masticación: los inerva el nervio mandibular (V3, rama del trigémino). Son el masetero (eleva la mandíbula), el temporal (la eleva, y sus fibras posteriores la retraen), el pterigoideo medial (la eleva y la mueve lateralmente) y el pterigoideo lateral (protruye la mandíbula y es el principal músculo de la apertura de la boca)."
+      ],
+      "clave": "La parálisis del nervio facial (parálisis de Bell) impide cerrar el ojo y desvía la comisura bucal del lado afectado, sin afectar la masticación, que depende del V par."
+    },
+    {
+      "titulo": "Músculos del cuello",
+      "claves": ["Esternocleidomastoideo", "Suprahioideos", "Infrahioideos", "Escalenos"],
+      "puntos": [
+        "Esternocleidomastoideo (nervio accesorio, XI): nace del esternón y la clavícula y se inserta en el proceso mastoides. Si se contrae uno solo, inclina la cabeza hacia su lado y gira la cara hacia el lado opuesto; si se contraen ambos, flexionan el cuello. Divide el cuello en los triángulos anterior y posterior.",
+        "Suprahioideos (elevan el hioides y deprimen la mandíbula): digástrico (vientre anterior, nervio milohioideo de V3; vientre posterior, nervio facial), milohioideo (forma el piso de la boca), geniohioideo (C1) y estilohioideo (VII).",
+        "Infrahioideos o «músculos en cinta» (descienden el hioides y la laringe; los inerva el asa cervical, C1-C3): esternohioideo, omohioideo, esternotiroideo y tirohioideo.",
+        "Escalenos (anterior, medio y posterior): elevan las costillas 1.ª y 2.ª y flexionan lateralmente el cuello. El plexo braquial y la arteria subclavia pasan entre el escaleno anterior y el medio."
+      ]
+    }
+  ],
+  "flashcards": [
+    { "frente": "Masetero", "categoria": "Masticación", "reverso": { "Origen": "Arco cigomático.", "Inserción": "Cara lateral de la rama y del ángulo de la mandíbula.", "Función": "Eleva la mandíbula (cierra la boca).", "Inervación": "Nervio mandibular (V3)." } },
+    { "frente": "Temporal", "categoria": "Masticación", "reverso": { "Origen": "Fosa temporal.", "Inserción": "Proceso coronoides de la mandíbula.", "Función": "Eleva la mandíbula; sus fibras posteriores la retraen.", "Inervación": "Nervio mandibular (V3)." } },
+    { "frente": "Pterigoideo lateral", "categoria": "Masticación", "reverso": { "Origen": "Ala mayor del esfenoides y lámina lateral del proceso pterigoides.", "Inserción": "Cuello del cóndilo mandibular y disco de la ATM.", "Función": "Protruye la mandíbula; principal músculo de la apertura de la boca.", "Inervación": "Nervio mandibular (V3)." } },
+    { "frente": "Orbicular de los ojos", "categoria": "Mímica", "reverso": { "Ubicación": "Alrededor de la órbita y en los párpados.", "Función": "Cierra los párpados (parpadeo y cierre forzado).", "Inervación": "Nervio facial (VII)." } },
+    { "frente": "Buccinador", "categoria": "Mímica", "reverso": { "Ubicación": "Pared de la mejilla.", "Función": "Comprime la mejilla contra los dientes al soplar y masticar.", "Inervación": "Nervio facial (VII), pese a participar en la masticación." } },
+    { "frente": "Esternocleidomastoideo", "categoria": "Cuello", "reverso": { "Origen": "Manubrio del esternón y tercio medial de la clavícula.", "Inserción": "Proceso mastoides y línea nucal superior.", "Función": "Unilateral: inclina hacia su lado y gira la cara al lado opuesto. Bilateral: flexiona el cuello.", "Inervación": "Nervio accesorio (XI)." } },
+    { "frente": "Digástrico", "categoria": "Cuello", "reverso": { "Origen": "Vientre posterior: incisura mastoidea. Vientre anterior: fosa digástrica de la mandíbula.", "Inserción": "Tendón intermedio fijado al hioides.", "Función": "Eleva el hioides y deprime la mandíbula.", "Inervación": "Anterior: nervio milohioideo (V3). Posterior: nervio facial (VII)." } },
+    { "frente": "Músculos infrahioideos", "categoria": "Cuello", "reverso": { "Músculos": "Esternohioideo, omohioideo, esternotiroideo y tirohioideo.", "Función": "Descienden el hioides y la laringe (deglución y fonación).", "Inervación": "Asa cervical (C1-C3)." } },
+    { "frente": "Pterion", "categoria": "Cráneo", "reverso": { "Definición": "Unión de frontal, parietal, temporal y esfenoides.", "Importancia": "Zona delgada sobre la arteria meníngea media (hematoma epidural)." } },
+    { "frente": "Axis (C2)", "categoria": "Columna cervical", "reverso": { "Característica": "Tiene el diente (dens), que se proyecta hacia arriba.", "Función": "Eje de rotación del atlas (articulación atlantoaxial)." } }
+  ],
+  "quiz": [
+    { "tipo": "multiple", "pregunta": "¿Qué nervio inerva los músculos de la mímica?", "opciones": ["Trigémino (V)", "Facial (VII)", "Glosofaríngeo (IX)", "Hipogloso (XII)"], "correcta": 1, "explicacion": "Todos los músculos de la expresión facial derivan del 2.º arco faríngeo y los inerva el nervio facial. Los de la masticación, del 1.er arco, los inerva el trigémino (V3)." },
+    { "tipo": "multiple", "pregunta": "¿Cuál es el principal músculo de la apertura de la boca?", "opciones": ["Masetero", "Temporal", "Pterigoideo lateral", "Pterigoideo medial"], "correcta": 2, "explicacion": "El pterigoideo lateral tira del cóndilo y del disco hacia adelante, protruyendo la mandíbula e iniciando la apertura. Masetero, temporal y pterigoideo medial elevan la mandíbula." },
+    { "tipo": "vf", "pregunta": "El hioides se articula con la mandíbula.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. El hioides no se articula con ningún hueso; lo suspenden músculos y ligamentos (suprahioideos, infrahioideos y ligamento estilohioideo)." },
+    { "tipo": "multiple", "pregunta": "¿Qué estructura pasa por debajo del pterion?", "opciones": ["Arteria carótida interna", "Arteria meníngea media", "Seno sagital superior", "Nervio facial"], "correcta": 1, "explicacion": "La arteria meníngea media corre por la cara interna del cráneo bajo el pterion. Un golpe en esa zona puede romperla y causar un hematoma epidural." },
+    { "tipo": "multiple", "pregunta": "¿Qué movimiento produce la contracción del esternocleidomastoideo derecho?", "opciones": ["Gira la cara hacia la derecha", "Gira la cara hacia la izquierda e inclina la cabeza a la derecha", "Extiende el cuello", "Eleva la escápula"], "correcta": 1, "explicacion": "Al contraerse un solo lado, el ECM acerca la mastoides a su clavícula: inclina la cabeza hacia su lado y gira la cara hacia el lado contrario." },
+    { "tipo": "multiple", "pregunta": "¿Qué vértebra no tiene cuerpo?", "opciones": ["Atlas (C1)", "Axis (C2)", "C7", "T1"], "correcta": 0, "explicacion": "El atlas es un anillo con dos masas laterales y sin cuerpo. Su «cuerpo» embrionario se fusionó al axis y forma el diente." },
+    { "tipo": "multiple", "pregunta": "¿Qué inerva el vientre posterior del digástrico?", "opciones": ["Nervio milohioideo (V3)", "Nervio facial (VII)", "Asa cervical", "Nervio hipogloso"], "correcta": 1, "explicacion": "El vientre posterior lo inerva el nervio facial y el anterior, el milohioideo (rama de V3), porque derivan de arcos faríngeos distintos." },
+    { "tipo": "vf", "pregunta": "La fontanela anterior se cierra antes que la posterior.", "opciones": ["Verdadero", "Falso"], "correcta": 1, "explicacion": "Falso. La posterior se cierra hacia los 2-3 meses y la anterior, mucho después, hacia los 18-24 meses." },
+    { "tipo": "multiple", "pregunta": "¿Qué estructuras pasan entre los escalenos anterior y medio?", "opciones": ["Vena subclavia y nervio frénico", "Plexo braquial y arteria subclavia", "Arteria carótida y nervio vago", "Esófago y tráquea"], "correcta": 1, "explicacion": "El plexo braquial y la arteria subclavia pasan por el espacio interescalénico. La vena subclavia y el nervio frénico pasan por delante del escaleno anterior." },
+    { "tipo": "multiple", "pregunta": "¿Qué nervio inerva el masetero?", "opciones": ["Facial", "Mandibular (V3)", "Maxilar (V2)", "Accesorio"], "correcta": 1, "explicacion": "Todos los músculos de la masticación los inerva el nervio mandibular, tercera rama del trigémino." }
+  ],
+  "pareados": [
+    { "termino": "Masetero", "definicion": "Eleva la mandíbula desde el arco cigomático." },
+    { "termino": "Pterigoideo lateral", "definicion": "Principal músculo de la apertura de la boca." },
+    { "termino": "Orbicular de los ojos", "definicion": "Cierra los párpados." },
+    { "termino": "Buccinador", "definicion": "Comprime la mejilla al soplar." },
+    { "termino": "Esternocleidomastoideo", "definicion": "Divide el cuello en triángulos anterior y posterior." },
+    { "termino": "Atlas", "definicion": "Primera vértebra cervical, sin cuerpo." },
+    { "termino": "Pterion", "definicion": "Unión de cuatro huesos sobre la arteria meníngea media." },
+    { "termino": "Hioides", "definicion": "Hueso del cuello que no se articula con otros huesos." }
+  ]
+}
